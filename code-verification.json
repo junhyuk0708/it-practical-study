@@ -1,0 +1,266 @@
+[
+  {
+    "page": "273",
+    "example": 1,
+    "status": "pass",
+    "output": "Pto*gra",
+    "expected": "Pto*gra",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 2,
+    "status": "pass",
+    "output": "5",
+    "expected": "5",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 3,
+    "status": "pass",
+    "output": "20\n20/123.457",
+    "expected": "20\n20/123.457",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 4,
+    "status": "pass",
+    "output": "SIKDDP",
+    "expected": "SIKDDP",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 5,
+    "status": "pass",
+    "output": "What      \n      What",
+    "expected": "What      \n      What",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 6,
+    "status": "pass",
+    "output": "i=7, hap=9",
+    "expected": "i=7, hap=9",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 7,
+    "status": "pass",
+    "output": "9 5",
+    "expected": "9 5",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 8,
+    "status": "pass",
+    "output": "30 200",
+    "expected": "30 200",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 9,
+    "status": "pass",
+    "output": "[1, 2, 3]\n7\n1 2 3 \n4 5 \n6 7 8 9",
+    "expected": "[1, 2, 3]\n7\n1 2 3 \n4 5 \n6 7 8 9",
+    "detail": ""
+  },
+  {
+    "page": "273",
+    "example": 10,
+    "status": "pass",
+    "output": "REMEMBER AND STR",
+    "expected": "REMEMBER AND STR",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 1,
+    "status": "pass",
+    "output": "[7]\n[5, 7]\n[5, 7]\n[7]\n1",
+    "expected": null,
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 2,
+    "status": "pass",
+    "output": "30",
+    "expected": "30",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 3,
+    "status": "pass",
+    "output": "17",
+    "expected": "17",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 4,
+    "status": "pass",
+    "output": "14",
+    "expected": "14",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 5,
+    "status": "pass",
+    "output": "5, 15",
+    "expected": "5, 15",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 6,
+    "status": "pass",
+    "output": "Sub Object\nSuper Object",
+    "expected": "Sub Object\nSuper Object",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 7,
+    "status": "pass",
+    "output": "97",
+    "expected": "97",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 8,
+    "status": "pass",
+    "output": "a=10",
+    "expected": "a=10",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 9,
+    "status": "pass",
+    "output": "Vehicle name : Spark",
+    "expected": "Vehicle name : Spark",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 10,
+    "status": "pass",
+    "output": "1",
+    "expected": "1",
+    "detail": ""
+  },
+  {
+    "page": "274",
+    "example": 11,
+    "status": "pass",
+    "output": "child",
+    "expected": "child",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 1,
+    "status": "pass",
+    "output": "7.900000\n7.900\n  7.90",
+    "expected": "7.900000\n7.900\n  7.90",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 2,
+    "status": "pass",
+    "output": "A\n7",
+    "expected": "A\n7",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 3,
+    "status": "pass",
+    "output": "50758595100",
+    "expected": "50758595100",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 4,
+    "status": "pass",
+    "output": "8",
+    "expected": "8",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 5,
+    "status": "pass",
+    "output": "501",
+    "expected": "501",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 6,
+    "status": "pass",
+    "output": "3\n1\n0\n0\n0",
+    "expected": "3\n1\n0\n0\n0",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 7,
+    "status": "pass",
+    "output": "Lee\n38",
+    "expected": "Lee\n38",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 8,
+    "status": "pass",
+    "output": "Hell He",
+    "expected": "Hell He",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 9,
+    "status": "pass",
+    "output": "[a]=3.46 / [b]=5.612e-02",
+    "expected": "[a]=3.46 / [b]=5.612e-02",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 10,
+    "status": "pass",
+    "output": "13 34",
+    "expected": "13 34",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 11,
+    "status": "pass",
+    "output": "8",
+    "expected": "8",
+    "detail": ""
+  },
+  {
+    "page": "425",
+    "example": 12,
+    "status": "pass",
+    "output": "1, 4, 0",
+    "expected": "1, 4, 0",
+    "detail": ""
+  }
+]

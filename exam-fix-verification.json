@@ -1,0 +1,205 @@
+[
+  {
+    "unit": "u-372-9",
+    "status": "pass",
+    "output": "46",
+    "detail": "",
+    "expected": "46"
+  },
+  {
+    "unit": "u-372-17",
+    "status": "pass",
+    "output": "Vehicle name: Spark",
+    "detail": "",
+    "expected": "Vehicle name: Spark"
+  },
+  {
+    "unit": "u-420-3",
+    "status": "pass",
+    "output": "입력하세요 : 입력하세요 : 입력하세요 : 박영희\n박영희\n박영희",
+    "detail": "",
+    "expected": "입력하세요 : 입력하세요 : 입력하세요 : 박영희\n박영희\n박영희"
+  },
+  {
+    "unit": "u-420-14",
+    "status": "pass",
+    "output": "true\nfalse\ntrue\ntrue",
+    "detail": "",
+    "expected": "true\nfalse\ntrue\ntrue"
+  },
+  {
+    "unit": "u-453-4",
+    "status": "pass",
+    "output": "34",
+    "detail": "",
+    "expected": "34"
+  },
+  {
+    "unit": "u-453-8",
+    "status": "pass",
+    "output": "5040",
+    "detail": "",
+    "expected": "5040"
+  },
+  {
+    "unit": "u-453-10",
+    "status": "pass",
+    "output": "KOREA\nOREA\nK\nE\nO",
+    "detail": "",
+    "expected": "KOREA\nOREA\nK\nE\nO"
+  },
+  {
+    "unit": "u-423-7",
+    "status": "pass",
+    "output": "-8",
+    "detail": "",
+    "expected": "-8"
+  },
+  {
+    "unit": "u-423-8",
+    "status": "pass",
+    "output": "2",
+    "detail": "",
+    "expected": "2"
+  },
+  {
+    "unit": "u-423-17",
+    "status": "pass",
+    "output": "61",
+    "detail": "",
+    "expected": "61"
+  },
+  {
+    "unit": "u-424-1",
+    "status": "pass",
+    "output": "1132\n3453\n3564\n3553",
+    "detail": "",
+    "expected": "1132\n3453\n3564\n3553"
+  },
+  {
+    "unit": "u-424-4",
+    "status": "pass",
+    "output": "24513",
+    "detail": "",
+    "expected": "24513"
+  },
+  {
+    "unit": "u-424-9",
+    "status": "pass",
+    "output": "[101, 102, 103, 104, 105]",
+    "detail": "",
+    "expected": "[101, 102, 103, 104, 105]"
+  },
+  {
+    "unit": "u-424-13",
+    "status": "pass",
+    "output": "2",
+    "detail": "",
+    "expected": "2"
+  },
+  {
+    "unit": "u-424-19",
+    "status": "pass",
+    "output": "0123",
+    "detail": "",
+    "expected": "0123"
+  },
+  {
+    "unit": "u-191-7",
+    "status": "pass",
+    "output": "3\n1\n45\n50\n89",
+    "detail": "",
+    "expected": "3\n1\n45\n50\n89"
+  },
+  {
+    "unit": "u-191-15",
+    "status": "pass",
+    "output": "Lee\n38",
+    "detail": "",
+    "expected": "Lee\n38"
+  },
+  {
+    "unit": "u-210-18",
+    "status": "pass",
+    "output": "8",
+    "detail": "",
+    "expected": "8"
+  },
+  {
+    "unit": "u-217-1",
+    "status": "pass",
+    "output": "3",
+    "detail": "",
+    "expected": "3"
+  },
+  {
+    "unit": "u-217-11",
+    "status": "pass",
+    "output": "7",
+    "detail": "",
+    "expected": "7"
+  },
+  {
+    "unit": "u-217-12",
+    "status": "pass",
+    "output": "37",
+    "detail": "",
+    "expected": "37"
+  },
+  {
+    "unit": "u-217-14",
+    "status": "pass",
+    "output": "False",
+    "detail": "",
+    "expected": "False"
+  },
+  {
+    "unit": "u-217-17",
+    "status": "pass",
+    "output": "501",
+    "detail": "",
+    "expected": "501"
+  },
+  {
+    "unit": "u-196-14",
+    "status": "pass",
+    "output": "-8",
+    "detail": "",
+    "expected": "-8"
+  },
+  {
+    "unit": "u-195-19",
+    "status": "pass",
+    "output": "a=10",
+    "detail": "",
+    "expected": "a=10"
+  },
+  {
+    "unit": "u-194-13",
+    "status": "pass",
+    "output": "234",
+    "detail": "",
+    "expected": "234"
+  },
+  {
+    "unit": "u-194-15",
+    "status": "pass",
+    "output": "vehicle name:Spark",
+    "detail": "",
+    "expected": "vehicle name:Spark"
+  },
+  {
+    "unit": "u-192-9",
+    "status": "pass",
+    "output": "[1, 2, 3]\n7\n123\n45\n6789",
+    "detail": "",
+    "expected": "[1, 2, 3]\n7\n123\n45\n6789"
+  },
+  {
+    "unit": "u-192-18",
+    "status": "pass",
+    "output": "KOREA\nEA\nK\nE\nM",
+    "detail": "",
+    "expected": "KOREA\nEA\nK\nE\nM"
+  }
+]

@@ -1,0 +1,951 @@
+[
+  {
+    "title": "2026년 1회",
+    "url": "https://chobopark.tistory.com/561",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2026년 2회",
+    "url": "https://chobopark.tistory.com/562",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2025년 1회",
+    "url": "https://chobopark.tistory.com/540",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2025년 2회",
+    "url": "https://chobopark.tistory.com/554",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2025년 3회",
+    "url": "https://chobopark.tistory.com/558",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2024년 1회",
+    "url": "https://chobopark.tistory.com/476",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2024년 2회",
+    "url": "https://chobopark.tistory.com/483",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2024년 3회",
+    "url": "https://chobopark.tistory.com/495",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2023년 1회",
+    "url": "https://chobopark.tistory.com/372",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "9번 기출 코드",
+        "before": "#include <stdio.h>\n \nint main() {\n \n    int input = 101110;\n    int di = 1;\n    int sum = 0;\n \n    while (1) {\n \n        if (input == 0) break\n        else {\n \n          sum = sum + (input (a)(b)) * di;\n             di = di * 2;\n             input = input / 10;\n \n        }\n    }\n \n    printf(\"%d\", sum);\n \n    return 0;\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "17번 기출 코드",
+        "before": "abstact class Vehicle {\n \n    String name;\n    abstract public String getName(String val);\n \n    public String getName() {\n            return \"Vehicle name: \" + name;\n    }\n}\n \n \n \nclass Car extends Vehicle {\n \n    public Car(String val) {\n            name=super.name=val;\n    }\n \n    public String getName(String val) {\n            return \"Car name:\" + val;\n    }\n \n    public String getName(byte val[]) {\n            return \"Car name:\" + val;\n    }\n}\n \n \npublic class Main {\n \n    public static void main(String[] args) {\n \n    Vehicle obj = new Car(\"Spark\");\n    System.out.println(obj.getName());\n \n    }\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2023년 2회",
+    "url": "https://chobopark.tistory.com/420",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "3번 기출 코드",
+        "before": "#include<stdlio.h> \n#include<stdlib.h> \nchar n[30];\nchar *test() {\n    printf(입력하세요 : );\n    gets(n);\n    return n;\n}\n \nint main()\n \n{\n    char * test1;\n    char * test2;\n    char * test3;\n \n    test1 = test();\n    test2 = test();\n    test3 = test();\n \n    printf(%s\\n,test1);\n    printf(%s\\n,test2);\n    printf(%s,test3);\n \n}",
+        "after": "헤더·문자열 표기를 정정하고 삭제된 gets 함수를 fgets로 바꾸어 입력 길이를 제한했습니다. 세 포인터가 같은 전역 배열을 가리키는 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "14번 기출 코드",
+        "before": "public class Main{\n    public static void main(String[] args) {\n        \n        String str1 = 'Programming';\n        String str2 = 'Programming';\n        String str3 = new String('Programming');\n        \n        println(str1==str2)\n        println(str1==str3)\n        println(str1.equals(str3))\n        print(str2.equals(str3))\n    }\n}\n ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2023년 3회",
+    "url": "https://chobopark.tistory.com/453",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "4번 기출 코드",
+        "before": "#include <stdio.h>\n \nint test(int n) {\n    int i, sum = 0;\n \n    for (i = 1; i <= n / 2; i++){\n        if (n % i == 0)\n        sum += i;\n    }\n \n    if (n == sum) \n        return 1;\n    ​\n    return 0;\n}\n \n \nint main(){\n    int i, sum=0;\n \n    for (i = 2; i <= 100; i++){ \n        if (test(i))\n        sum += i;\n    }\n    \n    printf(\"%d \", sum); \n    return 0;\n}\n ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "8번 기출 코드",
+        "before": "#include\n \nint f(int n) {\n    if(n<=1) return 1;\n    else return n*f(n-1);\n}\n \nint main() {\n    printf(\"%d\", f(7));\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "10번 기출 코드",
+        "before": "#include\n \nint main() {\n    char* p = \"KOREA\";\n    printf(\"%s\\n\", p);\n    printf(\"%s\\n\", p+1);\n    printf(\"%c\\n\", *p);\n    printf(\"%c\\n\", *(p+3));\n    printf(\"%c\\n\", *p+4);\n}\n ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2022년 1회",
+    "url": "https://chobopark.tistory.com/271",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2022년 2회",
+    "url": "https://chobopark.tistory.com/423",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "7번 기출 코드",
+        "before": "public static void main(String args[]){\n  \n  int i = 3; int k = 1; \n  switch(i) { \n    case 1: k += 1;\n    case 2: k++;\n    case 3: k = 0; \n    case 4: k += 3; \n    case 5: k -= 10; \n    default: k--; \n  }\n  System.out.print(k); \n  \n}\n ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "8번 기출 코드",
+        "before": "struct A{ \n  int n, \n  int g\n} \n \nint main(){\n  A a = new A[2] \n  for(i=0; i <2; i++) {\n    a[i].n = i, \n    a[i].g=i+1  \n  }\n  System.out.printf(a[0].n + a[1].g);  \n}",
+        "after": "원문에 여러 언어의 문법이 섞여 있어, 제시된 계산 흐름을 C 문법으로 다시 작성했습니다. 공식 시험지의 코드 복원본은 아닙니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "17번 기출 코드",
+        "before": "public class Conv{ \npublic Conv(int a) {\nthis.a = a;\n} \nint func() {\nint b =1; \nfor (int i=1; i<a; i++){ \nb = a * i + b \n}\nreturn a +b;\n}\nint a;\n}\n \npublic static void main(String[] args){\nConv obj = new Conv(3);\nobj.a=5; \nint b = obj.func();\nsystem.out.print(obj.a + b);\ni\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2022년 3회",
+    "url": "https://chobopark.tistory.com/424",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "1번 기출 코드",
+        "before": "void main{\n \nfield {{0,1,0,1},{0,0,0,1},{1,1,1,0},{0,1,1,1}};\nmines {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}}; \n \nint w = 4, h = 4;\n  for(y=0; y<h; y++) {\n    for(x=0; x<w; x++) {  \n    if(field[y][x] == 0) continue;\n    \n      for(i=y-1; i<=y+1; i++) {\n        for(j=x-1; j<=x+1; j++) {\n          if(calculate(w,h,j,i) == 1) {\n            mines[i][j] += 1;\n          }\n        }\n      }\n    }\n  }\n  for(y=0; y<h; y++){\n    for(x=0; x<w; x++)\n      printf(\"%d\", mines[y][x]);\n      printf(\"\\n\");\n  }\n \n}\n \n \nint calculate(w,h,j,i) {\n  if (i >= 0 && i < h && j >= 0 && j < w) return 1;\n  return 0;\n}\n ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "4번 기출 코드",
+        "before": "void main{\n \nint []result = int[5];\nint []arr = [77,32,10,99,50];\n \n  for(int i = 0; i < 5; i++) {\n    result[i] = 1;\n    for(int j = 0; j < 5; j++) {\n      if(arr[i] <arr[j]) result[i]++;\n    }\n  }\n \n  for(int k = 0; k < 5; k++) {\n    printf(result[k]);\n  }\n}",
+        "after": "원문에 여러 언어의 문법이 섞여 있어, 제시된 계산 흐름을 C 문법으로 다시 작성했습니다. 공식 시험지의 코드 복원본은 아닙니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "9번 기출 코드",
+        "before": "TestList = [1,2,3,4,5]\nTestList = list(map(lambda num : num + 100, TestList)))\n \nprint(TestList)",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "13번 기출 코드",
+        "before": "int n;\nint k;\nint s;\nint el = 0;\n \n  for(n=6; n<=30; n++){\n    s=0;\n    k=n/2;\n    for(int j=1; j<=k; j++){\n      if(n%j==0){\n        s=s+j;\n      }\n    }\n    if(s==n){\n    el++;\n    }\n  }\n  \n  printf(\"%d\", el);",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "19번 기출 코드",
+        "before": "public class Main {\n  static int[] MakeArray(){\n \n  int[] tempArr = new int[4];\n  \n  for(int i=0; i<tempArr.Length;i++){\n    tempArr[i] = i;\n  }\n  \n  return tempArr;\n  }\n  \n  public static void main(String[] args){\n  \n  int[] intArr;\n  intArr = MakeArray();\n  \n  for(int i=0; i < intArr.Length; i++)\n  System.out.print(intArr[i]);\n \n  }\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2021년 1회",
+    "url": "https://chobopark.tistory.com/191",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "7번 기출 코드",
+        "before": "public class good{\n\tpublic static void main(String[] args){\n    \tint[][]arr = new int[][]{{45,50,75},{89}};\n        System.out.println(arr[0].length);\n        System.out.println(arr[1].length);\n        System.out.println(arr[0][0]);\n        System.out.println(arr[0][1]);\n        System.out.println(arr[1][0]);",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "15번 기출 코드",
+        "before": "#include <stdio.h>\n\nstruct good {\n\tchar name[10];\n    int age;\n };\n \n void main(){\n \tstruct good s[] = {\"Kim\",28,\"Lee\",38,\"Seo\",50,\"Park\",35};\n    \n    struct good *p;\n    p = s;\n    p++;\n    printf(\"%s\\n\", p-> name);\n    printf(\"%d\\n\", p-> age);",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2021년 2회",
+    "url": "https://chobopark.tistory.com/210",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "18번 기출 코드",
+        "before": "int main(){\n\nint ary[3];\nint s = 0;\n*(ary+0)=1;\nary[1] = *(ary+0)+2;\nary[2] = *ary+3;\nfor(int i=0; i<3; i++){\n  s=s+ary[i]\n}\n\nprint(\"%d\",s);\n\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2021년 3회",
+    "url": "https://chobopark.tistory.com/217",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "2020년 1회",
+    "url": "https://chobopark.tistory.com/196",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "14번 기출 코드",
+        "before": "public class good {\n\tpublic static void main(String[] args){\n    \tint i = 3;\n        int k = 1;\n        swich (i) {\n        case 0;\n        case 1;\n        case 2;\n        case 3 k = 0;\n        case 4 k += 3;\n        case 5 k -= 10;\n        default: k--;\n        }\n        system.out.print(k);\n     }\n}\n        ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2020년 2회",
+    "url": "https://chobopark.tistory.com/195",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "19번 기출 코드",
+        "before": "class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}\n  ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "2020년 3회",
+    "url": "https://chobopark.tistory.com/194",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "13번 기출 코드",
+        "before": "#include <studio.h>\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "15번 기출 코드",
+        "before": "abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}\n    ",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "15번 출력 문자열",
+        "before": "Vehicle name : Spark",
+        "after": "vehicle name:Spark — 제시된 코드의 대소문자와 공백에 맞게 정정",
+        "ref": "",
+        "kind": "정답 정정"
+      }
+    ]
+  },
+  {
+    "title": "2020년 4회",
+    "url": "https://chobopark.tistory.com/192",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "9번 기출 코드",
+        "before": "lol = [[1,2,3],[4,5],[6,7,8,9]]\nprint(lol[0])\nprint(lol[2][1])\n\tfor sub in lol:\n   \tfor item in sub:\n        \tprint(item, end = '')\n      \tprint()",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "18번 기출 코드",
+        "before": "#include <stdio.h>\n\nvoid main(){\n\tchar *p = \"KOREA\"\n    printf(\"%s\\n\" , p);\n    printf(\"%s\\n\" , p+3);\n    printf(\"%c\\n\" , *p);\n    printf(\"%c\\n\" , *(p+3));\n    printf(\"%c\\n\" , *p+2);",
+        "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
+        "ref": "",
+        "kind": "기출 코드 정정"
+      }
+    ]
+  },
+  {
+    "title": "족보 1탄 · 개념 정리",
+    "url": "https://chobopark.tistory.com/193",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "원자성(Atomicity)",
+        "before": "원자성(Atomicity) - 분해가 불가능한 작업의 최소단위",
+        "after": "원자성(Atomicity) — 트랜잭션의 연산은 모두 반영되거나 하나도 반영되지 않아야 한다(All or Nothing).",
+        "ref": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "커밋",
+        "before": "커밋 - 트랜잭션 확정 트랜잭션을 메모리에 영구적으로 저장하는 명령어",
+        "after": "COMMIT — 트랜잭션의 변경 사항을 확정하여 데이터베이스에 영구 반영한다.",
+        "ref": "https://www.postgresql.org/docs/current/sql-commit.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "롤백",
+        "before": "롤백 - 트랜잭션 취소 트랜잭션 내역을 저장 무효화시키는 명령어",
+        "after": "ROLLBACK — 미확정 트랜잭션의 변경을 취소한다. ROLLBACK TO SAVEPOINT는 지정한 저장점 이후의 변경을 취소한다.",
+        "ref": "https://www.postgresql.org/docs/current/sql-rollback.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "체크 포인트",
+        "before": "체크 포인트 - 저장 시기 설정 롤백을 위한 시점을 지정하는 명령어",
+        "after": "SAVEPOINT — 트랜잭션 내부에 부분 롤백을 위한 저장점을 설정한다. CHECKPOINT는 장애 복구 작업량을 줄이기 위한 검사점으로, SAVEPOINT와 구분한다.",
+        "ref": "https://www.postgresql.org/docs/current/sql-savepoint.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "SHA-256/384/512",
+        "before": "SHA-256/384/512 (Secure Hash Algorithm) - SHA알고리즘의 한 종류로써 256bit의 해시값을 생성하는 해시 함수",
+        "after": "SHA-256 / SHA-384 / SHA-512 — SHA-2 계열이며 출력 해시 길이는 각각 256 / 384 / 512비트이다. 입력 블록 길이와 출력 해시 길이는 다르다.",
+        "ref": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "(비선점형이란",
+        "before": "(비선점형이란 하나의 프로세스가 끝나지 않으면 다른 프로세스는 CPU를 사용할 수 없다 란 뜻입니다.)",
+        "after": "비선점형 — 실행 중인 프로세스가 종료하거나 입출력 대기 등으로 CPU를 자발적으로 반납할 때까지 강제로 CPU를 빼앗지 않는 방식이다.",
+        "ref": "https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/6_CPU_Scheduling.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "송.수신 시스템 간 데이터",
+        "before": "송.수신 시스템 간 데이터 연계의 편의성을 위해서 전송되는 데이터 구조를 동일한 형태로 정의",
+        "after": "XML(Extensible Markup Language) — 태그를 사용해 데이터의 구조와 의미를 표현하는 확장 가능한 마크업 언어이다.",
+        "ref": "https://www.w3.org/TR/REC-xml/",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "비동기 브라우저",
+        "before": "비동기 브라우저 . 서버 통신(AJAX)을 위해 '속성-값 쌍', '키-값-쌍'으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷",
+        "after": "JSON(JavaScript Object Notation) — 언어에 독립적인 텍스트 기반 데이터 교환 형식이다. 객체의 이름-값 쌍, 배열, 문자열, 숫자, 불리언, null을 표현하며 AJAX 전용 형식은 아니다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc8259",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "RTO(Recovery",
+        "before": "RTO(Recovery Time Objective) - 업무중단 시점부터 업무가 복구되어 다시 가동될 때까지의 시간",
+        "after": "RTO(Recovery Time Objective, 목표 복구 시간) — 업무 중단 후 서비스 복구를 완료하도록 정한 목표 시간. 실제 측정된 복구 시간과 구분한다.",
+        "ref": "https://csrc.nist.gov/glossary/term/recovery_time_objective",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "RPO(Recovery",
+        "before": "RPO(Recovery Point Objective) - 업무중단 시점부터 데이터가 복구되어 다시 정상가동될 때 데이터의 손실 허용 시점",
+        "after": "RPO(Recovery Point Objective, 목표 복구 시점) — 장애 후 데이터를 어느 시점까지 복구해야 하는지 정한 목표. RPO 1시간은 장애 직전 최대 1시간 분량의 데이터 손실을 허용한다는 의미이다.",
+        "ref": "https://csrc.nist.gov/glossary/term/recovery_point_objective",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "DRS(Disaster",
+        "before": "DRS(Disaster Recovery System) - 재해복구계획의 원활한 수행을 지원하기 위하여 평상시에 확보하여 두는 인적,물적 자원 및 이들에 대한 지속적인 관리체계가 통합된 재해복구센터",
+        "after": "DRS(Disaster Recovery System) — 재해복구계획을 실행하기 위한 인력, 시설, 장비, 절차 등을 포함한 재해복구시스템. 재해복구센터는 이를 구현하는 기반 시설이다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "중복 테이블 추가",
+        "before": "중복 테이블 추가 - 대량의 데이터들에 대한 집계 함수(group by, sum 등)를 사용하여 실시간 통계 정보를 계산하는 경우에 효과적인 수행을 위해 별도의 통계 테이블을 두거나 중복 테이블을 추가",
+        "after": "중복 테이블 추가 — 통계 조회를 빠르게 하기 위해 집계 결과나 일부 데이터를 별도 테이블에 유지한다. GROUP BY는 그룹화 절이고 SUM·COUNT·AVG 등은 집계 함수이다.",
+        "ref": "https://www.ibm.com/docs/en/i/7.4.0?topic=statement-group-by-clause",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "유효성(E",
+        "before": "유효성(Effciency) - 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작",
+        "after": "유효성(Effectiveness) — 사용자가 목표를 정확하고 완전하게 달성할 수 있어야 한다. 효율성(Efficiency)은 투입 자원 대비 달성 정도로 구분한다.",
+        "ref": "https://csrc.nist.gov/glossary/term/effectiveness",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "인증(AH)",
+        "before": "인증(AH) 프로토콜 - 메세지 인증 코드(MAC)를 이용하여 인증과 송신처 인증을 제공해주는 프로토콜로 기밀성(암호화)은 제공하지 않는 프로토콜",
+        "after": "AH(Authentication Header) — IP 패킷의 무결성, 데이터 출처 인증, 재전송 공격 방지 기능을 제공한다. 기밀성은 제공하지 않는다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc4302",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "암호화(ESP)",
+        "before": "암호화(ESP) 프로토콜 - 메세지 인증 코드(MAC)와 암호화를 이용하여 인증과 송신처 인증과 기밀성을 제공하는 프로토콜",
+        "after": "ESP(Encapsulating Security Payload) — 기밀성, 무결성, 데이터 출처 인증 등을 제공할 수 있다. 실제 제공 서비스는 SA 설정에 따라 달라진다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc4303",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "키 관리(IKE)",
+        "before": "키 관리(IKE) 프로토콜 - Key를 주고 받는 알고리즘 / 공개된 네트워크를 통하여 Key를 어떻게 할 것인가를 정의",
+        "after": "IKE(Internet Key Exchange) — IPsec에서 상호 인증, 보안 연관(SA)의 협상 및 키 설정·관리를 수행하는 프로토콜이다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc7296",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "제품 계열 방법론",
+        "before": "제품 계열 방법론(Product Line Development) - 특정 제품에 적용하고 싶은 공통된 기능을 정의하여 개발하는 방법론",
+        "after": "제품 계열 방법론(Product Line Development) — 관련 제품들의 공통점과 차이점을 관리하고 공통 핵심 자산을 재사용하여 여러 제품을 개발한다.",
+        "ref": "https://www.sei.cmu.edu/library/software-product-lines-past-present-and-future/",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "논리적 데이터 모델",
+        "before": "논리적 데이터 모델(Logical Data Modeling) - 업무의 모습을 모델링 표기법으로 형상화화여 사람이 이해하기 쉽게 표현한 데이터 모델",
+        "after": "논리적 데이터 모델링(Logical Data Modeling) — 업무의 개체·속성·관계·식별자를 구체화하고 정규화 등을 수행한다. 특정 DBMS의 물리적 저장 구조와 분리하여 설계한다.",
+        "ref": "https://www.ibm.com/think/topics/data-modeling",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "형상 통제",
+        "before": "형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영",
+        "after": "형상 통제 — 변경 요청을 검토하고 승인·반려하며, 승인된 변경 사항의 반영을 통제하는 활동이다.",
+        "ref": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171r3/NIST.SP.800-171r3.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Mediator",
+        "before": "Mediator - 객체지향 설계에서 객체 수가 많아지면 서로 간 통신을 위해 복잡해져서 객체지향에서 가장 중요한 느슨한 결합의 특성을 해칠 수 있기에 중간에서 이를 통제하고 지시할 수 있는 역할의 중재자를 두고, 중재자에게 모든 것을 요구하여 통신의 빈도를 줄여 객체지향의 목표를 달성하게 해줌",
+        "after": "Mediator(중재자) — 객체 간 상호작용을 중재자에 모아 객체 사이의 직접적인 의존성을 줄인다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Strategy",
+        "before": "Strategy - 알고리즘 군을 정의하고(추상 클래스) 같은 알고리즘을 각각 하나의 클래스로 캡슐화한 다음, 필요할 때 서로 교환해서 사용할 수 있게 하는 패턴",
+        "after": "Strategy(전략) — 같은 목적을 수행하는 여러 알고리즘을 각각 캡슐화하고 필요에 따라 교체할 수 있게 한다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "State",
+        "before": "State - 객체 상태를 캡슐화하여 클래스화함으로써 그것을 참조하게 하는 방식",
+        "after": "State(상태) — 객체의 내부 상태에 따라 동작이 달라지도록 상태별 행동을 별도 객체로 분리한다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Memento",
+        "before": "Memento - 클래스 설계 관점에서 객체의 정보를 저장할 필요가 있을 때 적용하는 디자인 패턴",
+        "after": "Memento(메멘토) — 캡슐화를 유지하면서 객체의 내부 상태를 저장하고 나중에 복원한다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Command",
+        "before": "Command - 실행될 기능을 캡슐화함으로써 주어진 여러 기능을 실행할 수 있는 재사용이 높은 클래스를 설계",
+        "after": "Command(커맨드) — 요청을 객체로 캡슐화하여 요청의 대기열 처리, 기록, 실행 취소 등을 지원한다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Chain of Responsibility",
+        "before": "Chain of Responsibility - 정적으로 어떤 기능에 대한 처리의 연결이 하드 코딩되어 있을 때 기능처리의 연결 변경이 불가능한데, 이를 동적으로 연결된 경우에 따라 다르게 처리될 수 있도록 연결한 디자인 패턴",
+        "after": "Chain of Responsibility(책임 연쇄) — 여러 처리 객체를 연결하여 요청을 처리할 객체를 만날 때까지 다음 객체로 전달한다.",
+        "ref": "https://people.csail.mit.edu/addy/pattern/chap1.htm",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "논리적 설계 — 시험 키워드 보완",
+        "before": "논리적 데이터 모델링(Logical Data Modeling) — 업무의 개체·속성·관계·식별자를 구체화하고 정규화 등을 수행한다. 특정 DBMS의 물리적 저장 구조와 분리하여 설계한다.",
+        "after": "논리적 설계(데이터 모델링) — 개념적 설계 결과를 목표 DBMS가 지원하는 논리적 자료 구조로 변환하여 논리 스키마를 설계한다. 관계·속성·키·제약조건을 구체화하고 정규화 등을 수행한다. 구체적인 물리적 저장 구조와 접근 경로는 물리적 설계에서 결정한다. [시나공 핵심요약 16쪽 대조]",
+        "ref": "https://app.notion.com/p/junhyuklee/1025-39a4636695bf80ff81b6c1d4025f0144",
+        "kind": "승인된 설명 보완",
+        "reviewBatch": "2026-10-20-01",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "title": "족보 2탄 · 개념 정리",
+    "url": "https://chobopark.tistory.com/197",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "ICMP(Internet",
+        "before": "ICMP(Internet Control Message Protocol) :",
+        "after": "ICMP(Internet Control Message Protocol) — IP 통신의 오류 보고와 진단을 위한 제어 메시지 프로토콜. 공통 필드는 Type 8비트, Code 8비트, Checksum 16비트이며 이후 형식은 메시지 종류에 따라 다르다. Echo 메시지는 8바이트 헤더 뒤에 데이터가 온다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc792",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "IP 패킷을 처리할 때 발생하는 문제",
+        "before": "IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8비트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있음",
+        "after": "ICMP는 오류 보고와 진단 메시지를 제공한다. 공통 필드는 Type 8비트, Code 8비트, Checksum 16비트이며 이후 필드는 메시지 종류에 따라 다르다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc792",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "ICMP (Internet",
+        "before": "ICMP (Internet Control Message Protocol) - IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜 메세지 형식은 8bit 헤더와 가변 길이의 데이터 영역으로 분리",
+        "after": "ICMP — IP 통신의 오류 보고·진단에 사용한다. Type 8비트, Code 8비트, Checksum 16비트가 공통이며 나머지 필드 구성은 메시지 종류에 따라 달라진다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc792",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "- 주소체계는",
+        "before": "- 주소체계는 10진수로 총 12자리이며, 네 부분으로 나뉜다.",
+        "after": "IPv4 — 32비트 주소를 8비트씩 네 옥텟으로 나누어 점으로 구분한다. 각 옥텟은 0~255로 표시하며 십진수 글자 수는 고정 12자리가 아니다. 예: 192.168.0.1",
+        "ref": "https://www.rfc-editor.org/rfc/rfc791",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "- 각 부분은",
+        "before": "- 각 부분은 0~255까지 3자리의 수로 표현된다.",
+        "after": "각 옥텟은 십진수 1~3자리로 표시할 수 있다. 예: 1, 10, 255.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "- IPv4의 기존",
+        "before": "- IPv4의 기존 32bit 주소 공간에서 벗어나, IPv6는 128bit 주소 공간을 제공하고, IPv6는 네트워크의 물리적 위치에 제한받지 않고 같은 주소를 유지한다.",
+        "after": "IPv6 — 128비트 주소를 사용한다. 일반 IPv6만으로 이동 시 동일 주소가 유지되는 것은 아니며 이동성 지원은 Mobile IPv6 같은 별도 메커니즘과 구분한다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc8200",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "헝가리안 표기법",
+        "before": "헝가리안 표기법 - 식별자 표기 시, 두어에 자료형을 붙이는 표기법 (ex : goodMan > 정수형)",
+        "after": "헝가리안 표기법 — 식별자 앞에 자료형이나 용도를 나타내는 접두어를 붙인다. 예: 정수 개수 변수 nCount.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "페어와이즈 테스트",
+        "before": "페어와이즈 테스트 - 테스트 데이터값 간에 최소한 한번씩 조합하는 방식",
+        "after": "페어와이즈 테스트 — 입력 인자들 중 임의의 두 인자를 골랐을 때 가능한 값의 모든 쌍이 최소 한 번 포함되도록 테스트를 설계한다. 모든 인자의 전체 조합을 검사하는 것과 다르다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "Dynamic NAT",
+        "before": "Dynamic NAT - 사설 IP와 공인 IP주소가 N:1 또는 N:M으로 연결되는 구성",
+        "after": "Dynamic NAT — 주소 풀에서 사용 가능한 주소를 동적으로 선택해 매핑한다. 여러 내부 호스트가 하나의 외부 IP를 포트로 구분해 공유하는 방식은 PAT(NAT Overload)이다.",
+        "ref": "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/211269-nat-in-voip.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "(NAT",
+        "before": "(NAT(Network Address Transformation) 는 보통 사설 네트워크에 속한 여러 개의 호스트가 하나의 공인 IP 주소를 사용하여 인터넷에 접속하기 위하여 사용합니다.)",
+        "after": "NAT(Network Address Translation) — 패킷의 IP 주소를 변환하는 기술. 포트까지 변환하여 다대일 공유를 지원하는 PAT와 구분한다.",
+        "ref": "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/26704-nat-faq-00.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "(블록체인은",
+        "before": "(블록체인은 분산 컴퓨팅 기술 기반의 데이터 위변조 방지 기술로 P2P 방식을 기반으로하여 소규모 데이터들이 연결되어 형성된 '블록'이라는 분산 데이터 저장 환경에 관리 대상 데이터를 저장함으로써 누구도 임의로 수정할 수 없고 누구나 변경의 결과를 열람할 수 없게끔 만드는 기술입니다.)",
+        "after": "블록체인 — 블록을 해시로 연결하고 합의 절차를 이용해 원장 변경의 검증 가능성과 변조 저항성을 확보하는 분산 원장 기술이다. 열람 권한은 공개형·허가형 등 네트워크 설계에 따라 다르다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "PoS",
+        "before": "PoS (Proof of Stake) - 이더러움이 채택한 알고리즘으로 화폐량을 더 많이 소유하고 있는 승인자가 우선하여 블록을 생성할 수 있는 알고리즘",
+        "after": "PoS(Proof of Stake, 지분 증명) — 예치한 지분 등을 바탕으로 검증자를 선정하고 합의에 참여하게 한다. 구체적 선정 규칙은 프로토콜마다 다르며 보유량이 가장 많은 사람이 항상 블록을 생성하는 것은 아니다.",
+        "ref": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "논리적 설계",
+        "before": "논리적 설계 - 목표 DBMS에 맞는 스키마 설계, 트랜잭션 인터페이스를 설계하는 정규화 과정을 수행함",
+        "after": "논리적 설계 — 선택한 데이터 모델에 맞추어 관계, 속성, 키, 제약조건 등을 정의하고 정규화를 수행한다. 구체적인 DBMS 저장 구조와 접근 경로는 물리적 설계에서 결정한다.",
+        "ref": "https://www.ibm.com/think/topics/data-modeling",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "공유메모리",
+        "before": "공유메모리 - 한 프로세스의 일부분을 다른 프로세스와 공유",
+        "after": "공유 메모리 — 여러 프로세스가 공통 메모리 영역을 각자의 주소 공간에 매핑하여 데이터를 교환한다. 경쟁 상태를 막기 위한 동기화가 별도로 필요하다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "참 오라클",
+        "before": "참 오라클 - 모든 입력값에 대하여 기대하는 결과를 생성함으로써 발행된 오류를 모두 검출할 수 있는 오라클",
+        "after": "참 오라클 — 모든 입력에 대해 기대 결과를 제공할 수 있는 오라클. 기대 결과가 있다고 해서 실행하지 않은 테스트의 오류까지 자동으로 검출되는 것은 아니다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "라우팅 메트릭 지정",
+        "before": "라우팅 메트릭 지정 - 최조, 지연 , 최대 처리량 등 관리자가 라우팅 메트릭 지정",
+        "after": "라우팅 메트릭 — OSPF는 경로의 누적 비용(cost)을 사용한다. 인터페이스 비용은 관리자가 설정할 수 있으며 일반적으로 대역폭을 기준으로 계산한다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc2328",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "AS분할 사용",
+        "before": "AS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리",
+        "after": "영역(Area) 구성 — 하나의 자율 시스템(AS) 내부를 여러 영역으로 나누어 라우팅 정보를 관리한다. AS 자체를 여러 AS로 나누는 뜻은 아니다.",
+        "ref": "https://www.rfc-editor.org/rfc/rfc2328",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "논리적 설계 — 시험 키워드 보완",
+        "before": "논리적 설계 — 선택한 데이터 모델에 맞추어 관계, 속성, 키, 제약조건 등을 정의하고 정규화를 수행한다. 구체적인 DBMS 저장 구조와 접근 경로는 물리적 설계에서 결정한다.",
+        "after": "논리적 설계(데이터 모델링) — 개념적 설계 결과를 목표 DBMS가 지원하는 논리적 자료 구조로 변환하여 논리 스키마를 설계한다. 관계·속성·키·제약조건을 구체화하고 정규화 등을 수행한다. 구체적인 물리적 저장 구조와 접근 경로는 물리적 설계에서 결정한다. [시나공 핵심요약 16쪽 대조]",
+        "ref": "https://app.notion.com/p/junhyuklee/1025-39a4636695bf80ff81b6c1d4025f0144",
+        "kind": "승인된 설명 보완",
+        "reviewBatch": "2026-10-20-01",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "title": "족보 3탄 · 핵심 요약",
+    "url": "https://chobopark.tistory.com/198",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "TCL(트랜잭션",
+        "before": "TCL(트랜잭션 제어언어) 명령어 - 커밋 / 롤백 / 체크 포인트",
+        "after": "TCL(트랜잭션 제어 언어) — COMMIT / ROLLBACK / SAVEPOINT. CHECKPOINT는 장애 복구용 검사점으로 구분한다.",
+        "ref": "https://www.postgresql.org/docs/current/sql-savepoint.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "요구사항의 분류",
+        "before": "요구사항의 분류 - 개념 / 도출 방법 / 특성 / 사례",
+        "after": "요구사항의 분류 — 기능 요구사항(시스템이 수행할 기능) / 비기능 요구사항(성능, 보안, 신뢰성 등의 품질과 제약).",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "인수 테스트 종류",
+        "before": "인수 테스트 종류 - 단위 테스트 / 통합 테스트 / 시스템 테스트 / 인수 테스트 / 알파 테스트 / 베타 테스트 / 회귀 테스트",
+        "after": "테스트 수준 — 단위 → 통합 → 시스템 → 인수. 알파·베타 테스트는 인수 테스트의 형태이며 회귀 테스트는 변경 후 부작용 확인이라는 테스트 목적이다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "UI 품질 요구 사항",
+        "before": "UI 품질 요구 사항 - 신뢰성 / 성숙성 / 고장 허용성 / 회복성",
+        "after": "신뢰성 관련 품질 특성(ISO/IEC 9126 기준) — 성숙성 / 결함 허용성 / 회복성. 신뢰성 자체는 상위 품질 특성이며 UI 품질 전체 목록은 아니다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "UI 품질 요구사항",
+        "before": "UI 품질 요구사항 - 이식성 / 적용성 / 설치성 / 대체성",
+        "after": "이식성 관련 품질 특성(ISO/IEC 9126 기준) — 적응성 / 설치성 / 공존성 / 대체성. 이식성은 상위 품질 특성이며 표준 판본에 따라 구성은 달라진다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "대칭 키 암호화 알고리즘 종류",
+        "before": "대칭 키 암호화 알고리즘 종류 - DES / SEED / AES / ARIA / IDEA / LFSR",
+        "after": "대칭키 암호 알고리즘 예 — AES / ARIA / SEED / DES / IDEA. LFSR(선형 피드백 시프트 레지스터)은 스트림 암호 등에 활용되는 구성요소이며 그 자체를 안전한 암호 알고리즘으로 보지 않는다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "비대칭 키 암호화 알고리즘",
+        "before": "비대칭 키 암호화 알고리즘 - RSA / EOC / ElGamal",
+        "after": "공개키 암호 관련 기술 — RSA / ECC / ElGamal. ECC는 타원곡선을 이용하는 공개키 암호 기술군이다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "비대칭 키 암호화 알고리즘 :",
+        "before": "비대칭 키 암호화 알고리즘 : RSA, ECC, ECDSA",
+        "after": "공개키 암호 관련 기술 — RSA / ECC. ECDSA는 타원곡선 기반 전자서명 알고리즘으로 암호화와 구분한다.",
+        "ref": "https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/digital-signatures",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "대칭 키 암호화 알고리즘 :",
+        "before": "대칭 키 암호화 알고리즘 : AIA 128/192/256, SEED",
+        "after": "대칭키 암호 — ARIA(키 길이 128/192/256비트), SEED(128비트 키). 원문의 AIA는 ARIA로 정정한다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "고립화 수준의 종류",
+        "before": "고립화 수준의 종류 - Read Uncommitted / Read Committed / Repeatable Read / Serialzable Read",
+        "after": "트랜잭션 격리 수준 — READ UNCOMMITTED / READ COMMITTED / REPEATABLE READ / SERIALIZABLE. DBMS마다 지원 방식과 세부 동작은 다르다.",
+        "ref": "https://www.postgresql.org/docs/current/transaction-iso.html",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "프로세스의 교착상태",
+        "before": "프로세스의 교착상태 - 교착상태 / 상호배제 / 점유와 대기",
+        "after": "교착상태의 네 가지 필요조건 — 상호배제 / 점유와 대기 / 비선점 / 순환 대기. 교착상태는 이 조건들의 이름이 아니라 서로 필요한 자원을 기다리며 진행하지 못하는 상태이다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "DSR 유형",
+        "before": "DSR 유형 - Mirror site / Hot Site / Warm Site / Cold Site",
+        "after": "DRS 구축 유형 — Mirror Site / Hot Site / Warm Site / Cold Site. 재해복구시스템의 준비 수준과 복구 시간·비용에 따른 구분이다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "소프트웨어 아키텍처 비용 평가",
+        "before": "소프트웨어 아키텍처 비용 평가 모델 종류 - SAAM / ATAM / CBAM / ADR / ARID",
+        "after": "소프트웨어 아키텍처 평가 방법 — SAAM / ATAM / CBAM / ADR / ARID. 이 중 CBAM은 비용·편익 분석에 초점을 둔다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "재사용의 졸류",
+        "before": "재사용의 졸류 - 재공학 / 역공학 / 재개발",
+        "after": "기존 시스템 활용·개선 관련 개념 — 재공학 / 역공학 / 재개발. 이 셋을 곧바로 재사용의 표준 분류로 외우지 않는다.",
+        "ref": "",
+        "kind": "개념 정정"
+      },
+      {
+        "topic": "UML 다이어그램에서 구조적",
+        "before": "UML 다이어그램에서 구조적 다이어그램의 종류 - 클래스 / 객체 / 컴포넌트 / 배치 / 복합체 구조 / 패키지",
+        "after": "프로파일 다이어그램을 보충한 기록이다. 원문의 6종 수록을 오류로 단정하지 않는다. 후속 승인 검토에 따라 교재 수록 6종과 프로파일 보충을 구분했다.",
+        "ref": "",
+        "kind": "범위 보충"
+      },
+      {
+        "topic": "UML 구조 다이어그램 — 교재 범위와 보충 구분",
+        "before": "UML 구조 다이어그램 — 클래스 / 객체 / 컴포넌트 / 배치 / 복합 구조 / 패키지 / 프로파일. UML 2.x에서는 프로파일 다이어그램도 구조 다이어그램에 포함한다.",
+        "after": "UML 구조 다이어그램 — 시나공 핵심요약 수록 6종: 클래스 / 객체 / 컴포넌트 / 배치 / 복합체 구조 / 패키지. 보충: UML의 구조 다이어그램 분류에는 프로파일 다이어그램도 포함된다. 교재가 대표적인 6종을 수록한 것을 오류로 단정하지 않으며, 문제에서 제시한 설명과 보기에 맞춰 답한다. [시나공 핵심요약 7쪽 대조]",
+        "ref": "https://app.notion.com/p/junhyuklee/1025-39a4636695bf80ff81b6c1d4025f0144",
+        "kind": "승인된 설명 보완",
+        "reviewBatch": "2026-10-20-01",
+        "approved": true
+      },
+      {
+        "topic": "교착상태 — 동의어와 자원 개수 전제 보완",
+        "before": "교착상태의 네 가지 필요조건 — 상호배제 / 점유와 대기 / 비선점 / 순환 대기. 교착상태는 이 조건들의 이름이 아니라 서로 필요한 자원을 기다리며 진행하지 못하는 상태이다.",
+        "after": "교착상태의 네 가지 필요조건 — 상호배제 / 점유와 대기 / 비선점 / 순환 대기(환형 대기). 교착상태는 프로세스들이 서로 필요한 자원을 기다리며 진행하지 못하는 상태이다. 보충: 네 조건은 교착상태에 필요한 조건이다. 자원 유형마다 인스턴스가 하나라면 자원 할당 그래프의 순환은 교착상태를 뜻한다. 여러 인스턴스가 있다면 순환만으로 교착상태를 확정할 수 없으므로, 필요충분 여부를 말할 때는 자원 개수의 전제를 확인한다. [시나공 핵심요약 115쪽 대조]",
+        "ref": "https://app.notion.com/p/junhyuklee/1025-39a4636695bf80ff81b6c1d4025f0144",
+        "kind": "승인된 설명 보완",
+        "reviewBatch": "2026-10-20-01",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "title": "실기 공부 방법",
+    "url": "https://chobopark.tistory.com/460",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "이야기로 이해하는 실기",
+    "url": "https://chobopark.tistory.com/214",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": []
+  },
+  {
+    "title": "Python 문제와 해설",
+    "url": "https://chobopark.tistory.com/273",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "Python 문자열 예제",
+        "before": "capitalize, 정렬 공백, 마지막 슬라이싱 출력 설명",
+        "after": "capitalize는 문자열 첫 문자만 대문자로 하고 나머지는 소문자로 변환. 폭 지정 공백과 슬라이싱 출력값을 실제 실행 결과로 정정.",
+        "ref": "https://docs.python.org/3/library/stdtypes.html",
+        "kind": "해설 정정"
+      }
+    ]
+  },
+  {
+    "title": "Java 문제와 해설",
+    "url": "https://chobopark.tistory.com/274",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "예제 1 코드",
+        "before": "public static void main(String[] args){\n  Set a = new HashSet();\n \n  a.add(7)\n  System.out.println(a);\n \n  a.add(5)\n  System.out.println(a);\n \n  a.add(5)\n  System.out.println(a);\n \n  a.remove(5)\n  System.out.println(a);\n \n  System.out.println(a.size());  \n \n} ",
+        "after": "누락된 import, 클래스, 세미콜론을 보완했다. HashSet의 출력 순서는 보장되지 않는다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 3 코드",
+        "before": "public class Impl{\n \n  public static viod main(String args[]){\n  int a = 12, b = 5, sum = 2;\n  b *= a /= 4;\n  sum += ++a * b-- / 4;\n  System.out.printf(\"%d\", sum);  \n  \n  }\n}",
+        "after": "viod를 void로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 4 코드",
+        "before": "public class Impl{\n \n  public static viod main(String args[]){\n  int a = 5, b = 9, c;\n  c = b % 5 < 5 ? 1 : 0;\n  c = c | c << 3;\n  c = a < 5 || c >= 10 ? c - a : c + a;\n  System.out.printf(\"%d\", c);\n  \n  }\n}\n ",
+        "after": "viod를 void로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 5 코드",
+        "before": "public class Problem{\n    public static void main(String[] args){\n        int i = 0, hap = 0;\n        do{\n            ++i;\n            hap += i;\n        } while(i<5);\n        System.out.println(\"%d, %d\\n\", i, hap);\n    } \n}",
+        "after": "서식 문자열과 여러 인자를 받는 printf로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 8 코드",
+        "before": "class A {\n    int a;\n    public A(int a){this.a = a;}\n    void display(){System.out.println(\"a=\" + a);}\n}\n \nclass B extends A{\n    public B(int a)\n    super(a);\n    super.display();\n}\n \npublic class Test{\n    public static void main(String[] args){\n        B obj = new B(10);\n    }\n}",
+        "after": "생성자 본문을 감싸는 중괄호를 복원했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      }
+    ]
+  },
+  {
+    "title": "C·C++ 문제와 해설",
+    "url": "https://chobopark.tistory.com/425",
+    "author": "Life-Journey",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+    "changes": [
+      {
+        "topic": "예제 1 코드",
+        "before": "#include <stdio.h>\nvoid main(){\n  float a = 7.9;\n \n  printf(\"%f\\n\", a);\n  printf(\"%.3f\\n\", a);\n  printf(\"%6.2f\\n\", a);\n \n}",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 2 코드",
+        "before": "#include <iostream>\nusing namespace std;\nvoid main(){\n  char a = 'A'\n  int b = 7;\n  \n  cout << a << endl << b;\n \n}",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 4 코드",
+        "before": "#include <iostream>\nprint Value{\n  a,\n  b,\n  c = 7,\n  d\n};  \n \nvoid main(){\n  print Value value;\n  value = d;\n  std::cout << value;  \n}",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 6 코드",
+        "before": "#include <stdio.h>\nvoid main(){\n  int a[5] = {3,1};\n  int i;\n \n  for(i=0; i<5; i++)\n    printf(\"%d\\n\", a[i]);\n}",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 8 코드",
+        "before": "#include <stdio.h>\nmain(){\n  char inputData [50];\n  scanf(\"%s\", inputData );\n  printf(\"%.4s\", inputData );\n  printf(\"%3.2s\", inputData );\n}\n ",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 9 코드",
+        "before": "#include <stdio.h>\nmain(){\n \n  float a = 3.45678f;\n  double b = 0.0561214;\n  (     )\n \n}\n ",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 10 코드",
+        "before": "#include <stdio.h>\nmain(){\n \n  int i, j;\n  scanf(\"%o#x\", &i, &j);\n  printf(\"%d %d\", i, j)\n \n}\n ",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 12 코드",
+        "before": "#include <stdio.h>\nmain(){\n \n  int i = 5, j = 5, k = 20;\n  i /= j;\n  j -= i;\n  k %= j;\n  printf(\"%d, %d, %d\\n\", i, j, k);\n \n}\n ",
+        "after": "반환형이 없거나 void인 main을 표준적인 int main으로 정정했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 2 코드",
+        "before": "#include <iostream>\nusing namespace std;\nint main(){\n  char a = 'A'\n  int b = 7;\n  \n  cout << a << endl << b;\n \n}",
+        "after": "문자 선언 끝의 세미콜론을 보완했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 4 코드",
+        "before": "#include <iostream>\nprint Value{\n  a,\n  b,\n  c = 7,\n  d\n};  \n \nint main(){\n  print Value value;\n  value = d;\n  std::cout << value;  \n}",
+        "after": "열거형 선언을 enum Value로 정정했다. 초기값이 없는 열거 상수는 앞 값에 1을 더한다.",
+        "kind": "코드 정정",
+        "ref": ""
+      },
+      {
+        "topic": "예제 10 코드",
+        "before": "#include <stdio.h>\nint main(){\n \n  int i, j;\n  scanf(\"%o#x\", &i, &j);\n  printf(\"%d %d\", i, j)\n \n}\n ",
+        "after": "누락된 %x와 세미콜론을 복원하고 %o·%x에 맞게 unsigned int를 사용했다.",
+        "kind": "코드 정정",
+        "ref": ""
+      }
+    ]
+  }
+]
