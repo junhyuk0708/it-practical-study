@@ -46,7 +46,15 @@
     "url": "https://chobopark.tistory.com/483",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-483-2)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
+      }
+    ]
   },
   {
     "title": "2024년 3회",
@@ -226,6 +234,13 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-191-8)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
       }
     ]
   },
@@ -263,6 +278,13 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-196-17)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
       }
     ]
   },
@@ -521,6 +543,13 @@
         "kind": "승인된 설명 보완",
         "reviewBatch": "2026-10-20-01",
         "approved": true
+      },
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-193-15)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
       }
     ]
   },
@@ -788,6 +817,13 @@
         "kind": "승인된 설명 보완",
         "reviewBatch": "2026-10-20-01",
         "approved": true
+      },
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-198-8)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
       }
     ]
   },
@@ -803,7 +839,15 @@
     "url": "https://chobopark.tistory.com/214",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "topic": "반정규화·비정규화 용어 구분 (u-214-3)",
+        "before": "비정규화·반정규화의 번역 혼용과 정규화되지 않은 상태의 차이에 대한 설명 부족",
+        "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
+        "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
+        "kind": "용어 설명 보완"
+      }
+    ]
   },
   {
     "title": "Python 문제와 해설",
