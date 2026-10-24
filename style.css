@@ -26,3 +26,12 @@
 .mock-question .trace-scroll { max-width: 100%; overflow-x: auto; }
 .mock-question .answer-output { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.75; }
 @media(max-width:600px) { .mock-question pre { font-size: .82rem; } .mock-question table { font-size: .86rem; } }
+
+/* Related SQL input tables share a row when space permits. */
+.source-tables { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; margin: 1.25rem 0; max-width: 48rem; }
+.source-table { min-width: 0; margin: 1.25rem 0; }
+.source-tables > .source-table { margin: 0; }
+.source-table figcaption { margin-bottom: .65rem; font-weight: 700; color: var(--ink); }
+.source-table .trace-scroll { max-width: 100%; overflow-x: auto; }
+.source-table table { margin: 0; }
+@media (max-width: 600px) { .source-tables { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; } }
