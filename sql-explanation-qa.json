@@ -1,0 +1,752 @@
+{
+  "date": "2026-10-24",
+  "scope": "36 SQL code questions; excludes concepts and relational algebra",
+  "sqlite_version": "3.53.1",
+  "executed_questions": 33,
+  "manual_review_questions": 3,
+  "results": [
+    {
+      "id": "558-10",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) CNT FROM T1 A CROSS JOIN T2 B WHERE A.NAME LIKE B.RULE",
+          "result": [
+            [
+              4
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT A.NAME,B.RULE,A.NAME LIKE B.RULE FROM T1 A CROSS JOIN T2 B",
+          "result": [
+            [
+              "smith",
+              "s%",
+              1
+            ],
+            [
+              "smith",
+              "%t%",
+              1
+            ],
+            [
+              "allen",
+              "s%",
+              0
+            ],
+            [
+              "allen",
+              "%t%",
+              0
+            ],
+            [
+              "scott",
+              "s%",
+              1
+            ],
+            [
+              "scott",
+              "%t%",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217-13",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) CNT FROM T1 A CROSS JOIN T2 B WHERE A.NAME LIKE B.RULE",
+          "result": [
+            [
+              4
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT A.NAME,B.RULE,A.NAME LIKE B.RULE FROM T1 A CROSS JOIN T2 B",
+          "result": [
+            [
+              "smith",
+              "s%",
+              1
+            ],
+            [
+              "smith",
+              "%t%",
+              1
+            ],
+            [
+              "allen",
+              "s%",
+              0
+            ],
+            [
+              "allen",
+              "%t%",
+              0
+            ],
+            [
+              "scott",
+              "s%",
+              1
+            ],
+            [
+              "scott",
+              "%t%",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "558-20",
+      "method": "SQLite execution",
+      "note": "TABLE placeholder renamed A for SQLite",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(col2),COUNT(*) FROM A WHERE col1 IN (2,3) OR col2 IN (3,5)",
+          "result": [
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "423-4",
+      "method": "SQLite execution",
+      "note": "TABLE placeholder renamed A for SQLite",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(col2),COUNT(*) FROM A WHERE col1 IN (2,3) OR col2 IN (3,5)",
+          "result": [
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "561-9",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DEPT FROM STUDENT)",
+          "result": [
+            [
+              200
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DISTINCT DEPT FROM STUDENT)",
+          "result": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(DISTINCT DEPT) FROM STUDENT WHERE DEPT='컴퓨터과'",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196-6",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DEPT FROM STUDENT)",
+          "result": [
+            [
+              200
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DISTINCT DEPT FROM STUDENT)",
+          "result": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(DISTINCT DEPT) FROM STUDENT WHERE DEPT='컴퓨터과'",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "424-12",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DEPT FROM STUDENT)",
+          "result": [
+            [
+              200
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT DISTINCT DEPT FROM STUDENT)",
+          "result": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(DISTINCT DEPT) FROM STUDENT WHERE DEPT='인터넷과'",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "476-18",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM 급여 WHERE EMPNO > 100 AND SAL >= 3000 OR EMPNO = 200",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191-6",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM 급여 WHERE EMPNO > 100 AND SAL >= 3000 OR EMPNO = 200",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "561-18",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM employee e JOIN dept d ON e.dep_id=d.dept_id WHERE d.budget>(SELECT AVG(budget) FROM dept)",
+          "result": [
+            [
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "562-13",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) AS RESULT FROM A WHERE x > (SELECT AVG(y) FROM B WHERE B.id IN (SELECT A2.id FROM A AS A2 WHERE A2.x < A.x))",
+          "result": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "sql": "SELECT x,(SELECT AVG(y) FROM B WHERE B.id IN (SELECT A2.id FROM A A2 WHERE A2.x<A.x)) FROM A",
+          "result": [
+            [
+              10,
+              null
+            ],
+            [
+              20,
+              10.0
+            ],
+            [
+              30,
+              13.333333333333334
+            ],
+            [
+              40,
+              18.75
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "562-14",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT COUNT(*) FROM A RIGHT OUTER JOIN B ON A.id=B.id WHERE A.id IS NULL",
+          "result": [
+            [
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "562-12",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT 학번,성명 FROM 학생 WHERE 성명 LIKE '이%' ORDER BY 학번 DESC",
+          "result": [
+            [
+              2020003,
+              "이순신"
+            ],
+            [
+              2020001,
+              "이몽룡"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "540-7",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT name,incentives FROM emp,sal WHERE emp.id=sal.id AND incentives>=500",
+          "result": [
+            [
+              "이순신",
+              1000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "476-13",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT B FROM R1 WHERE C IN(SELECT C FROM R2 WHERE D='k')",
+          "result": [
+            [
+              "a"
+            ],
+            [
+              "b"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "495-3",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT count(*) FROM employee e JOIN project p ON e.project_id=p.project_id WHERE p.name IN (SELECT name FROM project p WHERE p.project_id IN(SELECT project_id FROM employee GROUP BY project_id HAVING count(*)<2))",
+          "result": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "372-13",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "DELETE FROM 학생 WHERE 이름 = '민수'",
+          "result": []
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM 학생",
+          "result": [
+            [
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194-9",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "DELETE FROM 학생 WHERE 이름 = '민수'",
+          "result": []
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM 학생",
+          "result": [
+            [
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "372-16",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT 과목이름,MIN(점수) AS 최소점수,MAX(점수) AS 최대점수 FROM 성적 GROUP BY 과목이름 HAVING AVG(점수)>=90",
+          "result": [
+            [
+              "데이터베이스",
+              89,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194-8",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT 과목이름,MIN(점수) AS 최소점수,MAX(점수) AS 최대점수 FROM 성적 GROUP BY 과목이름 HAVING AVG(점수)>=90",
+          "result": [
+            [
+              "컴퓨터과학",
+              85,
+              95
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "420-4",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "INSERT INTO 학생(학번,이름,학년,전공,전화번호) VALUES(9830287,'뉴진스',3,'경영학개론','010-1234-1234')",
+          "result": []
+        },
+        {
+          "sql": "SELECT * FROM 학생",
+          "result": [
+            [
+              9830287,
+              "뉴진스",
+              3,
+              "경영학개론",
+              "010-1234-1234"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "453-6",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT A FROM T1 UNION SELECT A FROM T2 ORDER BY A",
+          "result": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "271-4",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT name,score FROM 성적 ORDER BY score DESC",
+          "result": [
+            [
+              "Kim",
+              95
+            ],
+            [
+              "Gun",
+              90
+            ],
+            [
+              "Son",
+              80
+            ],
+            [
+              "Jung",
+              60
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210-5",
+      "method": "SQLite execution",
+      "note": "sample rows to verify incomplete SQL pattern",
+      "checks": [
+        {
+          "sql": "UPDATE 테이블명 SET 컬럼=1 WHERE 점수>=90",
+          "result": []
+        },
+        {
+          "sql": "SELECT 컬럼 FROM 테이블명",
+          "result": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210-6",
+      "method": "SQLite execution",
+      "note": "sample rows; omitted SELECT list completed for execution",
+      "checks": [
+        {
+          "sql": "SELECT a.이름 FROM 학생정보 a JOIN 학과정보 b ON a.학과=b.학과",
+          "result": [
+            [
+              "가"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210-10",
+      "method": "SQLite execution",
+      "note": "sample rows only, not claimed as original missing data",
+      "checks": [
+        {
+          "sql": "SELECT 이름 FROM 학생 WHERE 이름 LIKE '이%' ORDER BY 이름 DESC",
+          "result": [
+            [
+              "이순신"
+            ],
+            [
+              "이몽룡"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195-6",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT 학번,이름 FROM 학생 WHERE 학년 IN(3,4)",
+          "result": [
+            [
+              3000,
+              "허이름"
+            ],
+            [
+              4000,
+              "조이름"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195-12",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "CREATE INDEX IDX_NAME ON 학생(NAME)",
+          "result": []
+        },
+        {
+          "sql": "SELECT name FROM sqlite_master WHERE type='index'",
+          "result": [
+            [
+              "IDX_NAME"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194-20",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "ALTER TABLE 학생 ADD 주소 VARCHAR(20)",
+          "result": []
+        },
+        {
+          "sql": "SELECT name,type FROM pragma_table_info('학생') WHERE name='주소'",
+          "result": [
+            [
+              "주소",
+              "VARCHAR(20)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192-16",
+      "method": "SQLite execution",
+      "note": "original query/data or completed answer",
+      "checks": [
+        {
+          "sql": "SELECT 학과,COUNT(*) AS '학과별튜플수' FROM 학생 GROUP BY 학과",
+          "result": [
+            [
+              "전기",
+              1
+            ],
+            [
+              "전자",
+              2
+            ],
+            [
+              "컴퓨터",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "561-10",
+      "method": "SQLite execution",
+      "note": "parent schema supplied to check FK fragment",
+      "checks": [
+        {
+          "sql": "CREATE TABLE PLAYER(PLAYER_ID CHAR(7) NOT NULL,PLAYER_NAME VARCHAR2(20) NOT NULL,TEAM_ID CHAR(3) NOT NULL,PRIMARY KEY(PLAYER_ID),CONSTRAINT TEAM_TF FOREIGN KEY(TEAM_ID) REFERENCES TEAM(TEAM_ID2))",
+          "result": []
+        },
+        {
+          "sql": "INSERT INTO PLAYER VALUES('1','선수','A01')",
+          "result": []
+        }
+      ]
+    },
+    {
+      "id": "483-3",
+      "method": "SQLite execution",
+      "note": "completed four statements extracted from explanation; reconstructed schema"
+    },
+    {
+      "id": "424-7",
+      "method": "SQLite execution",
+      "note": "ONLY corrected child-to-parent CASCADE schema; screenshot errors explicitly documented",
+      "checks": [
+        {
+          "sql": "SELECT DISTINCT COUNT(직원코드) FROM 직원 WHERE 부서코드='20'",
+          "result": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "sql": "DELETE FROM 부서 WHERE 부서코드='20'",
+          "result": []
+        },
+        {
+          "sql": "SELECT DISTINCT COUNT(직원코드) FROM 직원",
+          "result": [
+            [
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "562-19",
+      "method": "manual primary-documentation review",
+      "source": "https://www.postgresql.org/docs/current/sql-createdomain.html",
+      "note": "CREATE DOMAIN unsupported by SQLite; CHECK/IN, VALUE, NULL semantics reviewed"
+    },
+    {
+      "id": "420-17",
+      "method": "manual primary-documentation review",
+      "source": "https://www.postgresql.org/docs/current/sql-dropview.html",
+      "note": "CASCADE syntax and dependency behavior; not executed in SQLite"
+    },
+    {
+      "id": "423-3",
+      "method": "manual primary-documentation review + independent Python predicate",
+      "source": "https://www.postgresql.org/docs/current/functions-subquery.html",
+      "note": "ALL unsupported by SQLite; original prices checked with all(price>h for h in [2000,3000])"
+    }
+  ]
+}
