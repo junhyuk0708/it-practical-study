@@ -1,0 +1,296 @@
+{
+  "source": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+  "basis": "영상 자동 생성 한국어 자막의 개념·챕터 확인. 자동 자막의 명백한 용어 오기는 정정하여 문제 작성. 원문 문제 전사 아님.",
+  "existingQuestions": 12,
+  "addedQuestions": 48,
+  "coverage": [
+    {
+      "document": "mock-c",
+      "number": 1,
+      "concept": "값 전달과 포인터 매개변수",
+      "videoTime": "09:32"
+    },
+    {
+      "document": "mock-c",
+      "number": 2,
+      "concept": "배열 인덱스와 포인터 연산",
+      "videoTime": "10:21"
+    },
+    {
+      "document": "mock-c",
+      "number": 3,
+      "concept": "배열 매개변수와 원본 변경",
+      "videoTime": "09:32"
+    },
+    {
+      "document": "mock-c",
+      "number": 4,
+      "concept": "구조체 안의 함수 포인터",
+      "videoTime": "03:17"
+    },
+    {
+      "document": "mock-c",
+      "number": 5,
+      "concept": "연결 리스트의 링크 변경",
+      "videoTime": "10:30"
+    },
+    {
+      "document": "mock-c",
+      "number": 6,
+      "concept": "트리 중위 순회와 재귀",
+      "videoTime": "10:53"
+    },
+    {
+      "document": "mock-c",
+      "number": 7,
+      "concept": "배열로 구현한 스택",
+      "videoTime": "10:40"
+    },
+    {
+      "document": "mock-c",
+      "number": 8,
+      "concept": "배열로 구현한 큐",
+      "videoTime": "10:40"
+    },
+    {
+      "document": "mock-java",
+      "number": 1,
+      "concept": "오버로딩과 오버라이딩 결합",
+      "videoTime": "10:59"
+    },
+    {
+      "document": "mock-java",
+      "number": 2,
+      "concept": "super·생성자·protected 접근",
+      "videoTime": "11:16"
+    },
+    {
+      "document": "mock-java",
+      "number": 3,
+      "concept": "재귀 호출과 반환",
+      "videoTime": "11:10"
+    },
+    {
+      "document": "mock-java",
+      "number": 4,
+      "concept": "문자열 내용 비교와 배열 참조",
+      "videoTime": "11:47"
+    },
+    {
+      "document": "mock-java",
+      "number": 5,
+      "concept": "static과 인스턴스 필드",
+      "videoTime": "11:47"
+    },
+    {
+      "document": "mock-java",
+      "number": 6,
+      "concept": "예외 처리와 finally",
+      "videoTime": "11:47"
+    },
+    {
+      "document": "mock-python",
+      "number": 1,
+      "concept": "split·슬라이싱·join",
+      "videoTime": "11:53"
+    },
+    {
+      "document": "mock-python",
+      "number": 2,
+      "concept": "음수 인덱스와 역방향 슬라이싱",
+      "videoTime": "12:01"
+    },
+    {
+      "document": "mock-python",
+      "number": 3,
+      "concept": "딕셔너리 키 조회·빈도 갱신",
+      "videoTime": "12:10"
+    },
+    {
+      "document": "mock-python",
+      "number": 4,
+      "concept": "딕셔너리 순회와 값 변경",
+      "videoTime": "12:10"
+    },
+    {
+      "document": "mock-python",
+      "number": 5,
+      "concept": "리스트 append·pop·슬라이싱",
+      "videoTime": "12:18"
+    },
+    {
+      "document": "mock-python",
+      "number": 6,
+      "concept": "얕은 복사·깊은 복사·중첩 리스트",
+      "videoTime": "12:25"
+    },
+    {
+      "document": "mock-sql",
+      "number": 1,
+      "concept": "RIGHT JOIN·COUNT(*)와 COUNT(열)",
+      "videoTime": "12:40"
+    },
+    {
+      "document": "mock-sql",
+      "number": 2,
+      "concept": "WHERE와 HAVING의 적용 시점",
+      "videoTime": "13:01"
+    },
+    {
+      "document": "mock-sql",
+      "number": 3,
+      "concept": "상관 서브쿼리와 EXISTS",
+      "videoTime": "12:53"
+    },
+    {
+      "document": "mock-sql",
+      "number": 4,
+      "concept": "NULL 비교와 집계",
+      "videoTime": "12:40"
+    },
+    {
+      "document": "mock-sql",
+      "number": 5,
+      "concept": "CREATE TABLE·외래 키",
+      "videoTime": "13:12"
+    },
+    {
+      "document": "mock-sql",
+      "number": 6,
+      "concept": "CREATE DOMAIN·CHECK·NOT NULL",
+      "videoTime": "13:15"
+    },
+    {
+      "document": "mock-sql",
+      "number": 7,
+      "concept": "INSERT 문 완성",
+      "videoTime": "13:23"
+    },
+    {
+      "document": "mock-sql",
+      "number": 8,
+      "concept": "UPDATE와 WHERE",
+      "videoTime": "13:23"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 1,
+      "concept": "Bridge·Observer·Abstract Factory",
+      "videoTime": "05:49, 07:16"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 2,
+      "concept": "Singleton·Strategy·Decorator",
+      "videoTime": "07:16"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 3,
+      "concept": "기능적·순차적·시간적 응집도",
+      "videoTime": "07:16"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 4,
+      "concept": "구문 커버리지와 분기 커버리지",
+      "videoTime": "07:36"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 5,
+      "concept": "조건 커버리지와 결정 커버리지",
+      "videoTime": "07:36"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 6,
+      "concept": "동등 분할·경계값 분석·결정 테이블",
+      "videoTime": "07:51"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 7,
+      "concept": "통합 테스트의 스텁과 드라이버",
+      "videoTime": "05:58"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 8,
+      "concept": "튜플·속성·카디널리티·차수",
+      "videoTime": "08:06"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 9,
+      "concept": "관계대수 선택·프로젝션·중복 제거",
+      "videoTime": "08:06"
+    },
+    {
+      "document": "mock-theory1",
+      "number": 10,
+      "concept": "관계대수와 관계해석",
+      "videoTime": "08:06"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 1,
+      "concept": "IP·HTTP·DNS의 OSI 계층",
+      "videoTime": "08:25"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 2,
+      "concept": "FIFO 페이지 교체",
+      "videoTime": "08:36"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 3,
+      "concept": "LRU 페이지 교체",
+      "videoTime": "08:36"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 4,
+      "concept": "LFU 페이지 교체",
+      "videoTime": "08:36"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 5,
+      "concept": "SQL 삽입·XSS·CSRF",
+      "videoTime": "08:51"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 6,
+      "concept": "스피어 피싱·스미싱·분산 서비스 거부",
+      "videoTime": "08:51"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 7,
+      "concept": "SSO·RBAC·DLP",
+      "videoTime": "09:02"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 8,
+      "concept": "인증과 인가",
+      "videoTime": "05:35, 08:59"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 9,
+      "concept": "해시·대칭 키·공개 키 암호",
+      "videoTime": "04:43, 09:09"
+    },
+    {
+      "document": "mock-theory2",
+      "number": 10,
+      "concept": "논리 데이터 모델과 설계 단계",
+      "videoTime": "08:06"
+    }
+  ]
+}

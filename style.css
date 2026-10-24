@@ -16,3 +16,13 @@
 .worked-answer th,.worked-answer td{padding:.65rem .8rem;text-align:left}
 .worked-answer .concept-tip{background:var(--soft);border-left:3px solid var(--accent);padding:.85rem 1rem;margin:1.2rem 0 .5rem;border-radius:0 6px 6px 0}
 @media(max-width:760px){.worked-answer ol{padding-left:1.25rem}.worked-answer th,.worked-answer td{padding:.55rem .6rem}.worked-answer .concept-tip{padding:.75rem}}
+
+/* Concept mock exams: readable stems and mobile code/table containment. */
+.mock-stem { line-height: 1.85; overflow-wrap: anywhere; }
+.mock-stem > p, .mock-stem > ol { margin-block: 1rem; }
+.mock-stem li { margin-block: .6rem; }
+.mock-question .worked-answer li { margin-block: .75rem; line-height: 1.8; }
+.mock-question pre { max-width: 100%; overflow-x: auto; overflow-wrap: normal; }
+.mock-question .trace-scroll { max-width: 100%; overflow-x: auto; }
+.mock-question .answer-output { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.75; }
+@media(max-width:600px) { .mock-question pre { font-size: .82rem; } .mock-question table { font-size: .86rem; } }

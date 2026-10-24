@@ -1723,31 +1723,113 @@
     ]
   },
   {
-    "title": "핵심 범위 모의고사 1회",
+    "title": "종합 모의고사 · 기본 12문항",
     "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
     "author": "실기 서재 자체 제작",
     "license": null,
-    "attribution": "참고 영상·문서의 학습 범위를 바탕으로 새로 작성한 문제. 원 제작자의 문항 전사·제휴·공식 예상문제 아님.",
-    "references": [
-      {
-        "title": "영상 설명·학습 목표",
-        "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
-      },
-      {
-        "title": "이론 범위 참고",
-        "url": "https://jeongcheogi.edugamja.com/theory/theory-expected-questions"
-      },
-      {
-        "title": "코딩 구성 참고",
-        "url": "https://jeongcheogi.edugamja.com/coding/coding-expected-questions-python"
-      }
-    ],
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
     "changes": [
       {
         "kind": "자체 제작 모의고사",
         "topic": "코딩 6 + 이론 6 · 12문항",
         "before": "영상 설명의 6+6은 목표 정답 수이며, 특정 12문항의 원문 목록이 아님.",
         "after": "영상 설명과 연결된 공개 공부 범위만 참고해 새 문제·코드·표·해설을 작성. 코딩 6문항 실행 및 이론 계산·정의 검수.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · C",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 8문항을 새로 작성. 풀이 순서와 주의점 제공.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · Java",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 6문항을 새로 작성. 풀이 순서와 주의점 제공.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · Python",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 6문항을 새로 작성. 풀이 순서와 주의점 제공.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · SQL",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 8문항을 새로 작성. 풀이 순서와 주의점 제공.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · 설계·테스트·DB",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 10문항을 새로 작성. 풀이 순서와 주의점 제공.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
+  },
+  {
+    "title": "주제별 모의고사 · 네트워크·메모리·보안",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "영상의 개념 범위를 참고해 독립적으로 작성. 영상 문제의 전사·제휴·공식 예상문제 아님.",
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "영상 개념별 연습",
+        "before": "6+6 목표 점수 구성에 맞춘 12문항만 제공.",
+        "after": "영상 자막에서 언급한 개념을 바탕으로 10문항을 새로 작성. 풀이 순서와 주의점 제공.",
         "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
       }
     ]
