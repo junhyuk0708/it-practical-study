@@ -35,3 +35,14 @@
 .source-table .trace-scroll { max-width: 100%; overflow-x: auto; }
 .source-table table { margin: 0; }
 @media (max-width: 600px) { .source-tables { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; } }
+
+/* Sidebar categories are independent, keyboard-accessible disclosures. */
+#nav .nav-section { margin: 14px 0 4px; border: 0; padding: 0; background: transparent; border-radius: 0; }
+#nav .nav-section > summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 11px 12px; border-radius: 7px; font-size: 12px; font-weight: 700; color: var(--muted); cursor: pointer; list-style: none; background: transparent; }
+#nav .nav-section > summary::-webkit-details-marker { display: none; }
+#nav .nav-section > summary::before, #nav .nav-section > summary::after { content: none; }
+#nav .nav-section > summary:hover { background: var(--soft); color: var(--ink); }
+#nav .nav-section.has-current > summary { color: var(--accent); }
+#nav .nav-chevron { font-size: 21px; line-height: 1; transform: rotate(0deg); }
+#nav .nav-section[open] > summary .nav-chevron { transform: rotate(90deg); }
+#nav .nav-children { padding-left: 6px; }

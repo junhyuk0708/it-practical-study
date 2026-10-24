@@ -11,12 +11,28 @@ try{const saved=JSON.parse(localStorage.getItem(key));if(saved&&typeof saved==='
 if(!state.done||typeof state.done!=='object')state.done={};if(!state.stars||typeof state.stars!=='object')state.stars={};
 if(!state.drafts||typeof state.drafts!=='object')state.drafts={};if(!state.positions||typeof state.positions!=='object')state.positions={};
 let current=null,filter='all',cbt=null;
+const navKey='it-practical-nav-v1';let navExpanded={};
+try{const saved=JSON.parse(localStorage.getItem(navKey));if(saved&&typeof saved==='object'&&!Array.isArray(saved))navExpanded=saved;}catch{}
 function toast(msg){$('#toast').textContent=msg;$('#toast').classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>$('#toast').classList.remove('show'),2600);}
 function save(){try{localStorage.setItem(key,JSON.stringify(state));}catch{toast('기록을 저장할 수 없습니다. 기록 백업을 이용해 주세요.');}progress();}
 function progress(){const n=[...validUnits].filter(k=>state.done[k]).length;$('#overall-progress').style.width=`${n/validUnits.size*100}%`;$('#overall-label').textContent=`${n} / ${validUnits.size}문항 완료`;}
 function nav(){let h=`<a href="#home" class="${!current?'active':''}">전체 자료 <small>${docs.length}</small></a><a href="#memory">암기법 모아보기 <small>${data.memoryAids?.length||11}</small></a><a href="#bookmarks">별표한 문제 <small>${Object.keys(state.stars).filter(k=>state.stars[k]&&validUnits.has(k)).length}</small></a>`;
- for(const k of ['notes','code','mock','exam','guide']){h+=`<p class="nav-group">${names[k]}</p>`;if(k==='exam'){for(const y of [...new Set(docs.filter(d=>d.kind===k).map(d=>d.year))])h+=`<a href="#year=${y}">${y}년 기출 <small>${docs.filter(d=>d.year===y).length}회차</small></a>`;}else{for(const d of docs.filter(d=>d.kind===k))h+=`<a href="#page=${d.id}" class="${current===d.id?'active':''}">${esc(d.title)}<small>${d.questionCount||''}</small></a>`;}}
- $('#nav').innerHTML=h;
+ for(const k of ['notes','code','exam','mock','guide']){
+  const active=docs.some(d=>d.id===current&&d.kind===k);
+  h+=`<details class="nav-section${active?' has-current':''}" data-nav-group="${k}" ${navExpanded[k]!==false?'open':''}><summary>${names[k]}<span class="nav-chevron" aria-hidden="true">›</span></summary><div class="nav-children">`;
+  if(k==='exam'){
+   for(const y of [...new Set(docs.filter(d=>d.kind===k).map(d=>d.year))])h+=`<a href="#year=${y}">${y}년 기출 <small>${docs.filter(d=>d.kind===k&&d.year===y).length}회차</small></a>`;
+  }else{
+   for(const d of docs.filter(d=>d.kind===k))h+=`<a href="#page=${d.id}" class="${current===d.id?'active':''}" ${current===d.id?'aria-current="page"':''}>${esc(d.title)}<small>${d.questionCount||''}</small></a>`;
+  }
+  h+='</div></details>';
+ }
+ const sidebarNav=$('#nav'),scrollTop=sidebarNav.scrollTop;sidebarNav.innerHTML=h;sidebarNav.scrollTop=scrollTop;
+ sidebarNav.querySelectorAll('.nav-section').forEach(section=>section.addEventListener('toggle',()=>{
+  if(!section.isConnected)return;
+  navExpanded[section.dataset.navGroup]=section.open;
+  try{localStorage.setItem(navKey,JSON.stringify(navExpanded));}catch{}
+ }));
 }
 function card(d){const n=d.blocks.filter(b=>b.question&&state.done[b.id.slice(2)]).length;const desc=d.kind==='notes'?`${d.corrections.length}건 개념·표기 수정 반영`:d.questionCount?`${d.questionCount}문항 · ${n}문항 완료`:'학습 접근법과 이해를 돕는 자료';return `<a class="doc-card" href="#page=${d.id}"><span class="tag">${names[d.kind]}</span><h3>${esc(d.title)}</h3><p>${desc}<span class="go">↗</span></p></a>`;}
 function home(year){current=null;const exams=docs.filter(d=>d.kind==='exam'),code=docs.filter(d=>d.kind==='code');$('#breadcrumb').textContent=year?`${year}년 기출`:'학습 대시보드';
