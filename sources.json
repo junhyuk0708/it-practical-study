@@ -4,42 +4,125 @@
     "url": "https://chobopark.tistory.com/561",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 12번",
+        "before": "일부 C 코드의 헤더/함수 선언 누락, 빈 중괄호 초기화 등 표준 버전 의존 표현.",
+        "after": "GCC 허용을 표준 적합성으로 간주하지 말고 헤더·프로토타입 보완. int b[3]={}는 C17 이전 기준에서는 {0} 권장; C23와 구별.",
+        "ref": "https://chobopark.tistory.com/561"
+      }
+    ]
   },
   {
     "title": "2026년 2회",
     "url": "https://chobopark.tistory.com/562",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 20번",
+        "before": "표의 인스턴스만으로 정규형을 확정하기 어려움.",
+        "after": "후보키와 함수 종속을 명시한 뒤 3NF/BCNF 여부를 판정. 공식 원문 조건 대조 필요.",
+        "ref": "https://chobopark.tistory.com/562"
+      }
+    ]
   },
   {
     "title": "2025년 1회",
     "url": "https://chobopark.tistory.com/540",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "Scareware를 일반적으로 랜섬웨어라고 단정.",
+        "after": "공포를 유발하여 결제·설치를 유도하는 기만적 소프트웨어로 설명. 접근 제한과 몸값 요구가 핵심인 ransomware와 구별.",
+        "ref": "https://chobopark.tistory.com/540"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "테이블/조건은 incentives인데 SELECT에는 incentive로 표기.",
+        "after": "SELECT name, incentives ...로 통일. 수정 후 의도한 결과는 이순신, 1000.",
+        "ref": "https://chobopark.tistory.com/540"
+      }
+    ]
   },
   {
     "title": "2025년 2회",
     "url": "https://chobopark.tistory.com/554",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "SRT 선점 조건을 기존 프로세스보다 짧은 burst 시간 도착으로만 설명.",
+        "after": "현재 실행 프로세스의 남은 실행시간과 새 프로세스의 실행시간을 비교한다고 명시.",
+        "ref": "https://chobopark.tistory.com/554"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 11번",
+        "before": "분기 커버리지 답안에 1에서 끝나는 부분 경로가 포함됨.",
+        "after": "부분 경로의 간선 커버를 인정하는지, 진입~종료의 완전한 실행 경로를 요구하는지 명시. 간선 커버 자체만 보고 오답으로 단정하지 않음.",
+        "ref": "https://chobopark.tistory.com/554"
+      }
+    ]
   },
   {
     "title": "2025년 3회",
     "url": "https://chobopark.tistory.com/558",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 6번",
+        "before": "문자열 길이를 14, E의 인덱스를 12, 종료 문자를 14로 설명함.",
+        "after": "문자열 길이 15, 반복 종료 a=15. R[12], E[13], A[14], \\0[15]. str[a-2]=str[13]=E. 정답 E는 유지.",
+        "ref": "https://chobopark.tistory.com/558"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 14번",
+        "before": "관계대수 나눗셈 표기가 R%S.",
+        "after": "R÷S로 표준 기호를 사용하거나 자체 표기임을 밝힘. 답 a1은 맞음.",
+        "ref": "https://chobopark.tistory.com/558"
+      }
+    ]
   },
   {
     "title": "2024년 1회",
     "url": "https://chobopark.tistory.com/476",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 10번",
+        "before": "Java 코드 this y=y, Child extend Parent 오타.",
+        "after": "this.y=y; 및 extends로 수정.",
+        "ref": "https://chobopark.tistory.com/476"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 6번",
+        "before": "표의 인스턴스만으로 정규형을 확정하기 어려움.",
+        "after": "후보키와 함수 종속을 명시한 뒤 3NF/BCNF 여부를 판정. 공식 원문 조건 대조 필요.",
+        "ref": "https://chobopark.tistory.com/476"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 13번",
+        "before": "SQL 문자열 k가 큰따옴표로 표시됨.",
+        "after": "DBMS가 명시되지 않은 학습 문제에서는 작은따옴표 사용. 일부 DBMS의 허용 여부와 표준 문법을 구별.",
+        "ref": "https://chobopark.tistory.com/476"
+      }
+    ]
   },
   {
     "title": "2024년 2회",
@@ -53,6 +136,27 @@
         "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
         "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
         "kind": "용어 설명 보완"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "AES가 1997년에 생성되었다고 서술.",
+        "after": "1997년 선정 절차 시작, 2000년 Rijndael 선정, 2001년 FIPS 197 표준화로 구분.",
+        "ref": "https://chobopark.tistory.com/483"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 3번",
+        "before": "사원 스키마에 없는 주소, 부서 스키마에 없는 부서 열을 INSERT에서 참조.",
+        "after": "스키마와 INSERT 대상 열·SELECT 값의 대응을 함께 재작성해야 함. 빈칸 VALUES/SELECT/FROM/SET은 유지.",
+        "ref": "https://chobopark.tistory.com/483"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 11번",
+        "before": "RIP 그래프 문제에 목적지가 없고 답은 A→D만 제시됨.",
+        "after": "출발지·목적지 및 요구 경로를 보완. 홉 수와 가중치 최단경로를 구별. 현재 자료만으로 단일 정답 확정 불가.",
+        "ref": "https://chobopark.tistory.com/483"
       }
     ]
   },
@@ -82,6 +186,27 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 12번",
+        "before": "카디널리티가 열의 고유값 수로 설명되어 있고, 튜플 설명에는 Python 개념이 혼합됨.",
+        "after": "열 카디널리티라는 문맥에서는 성립하므로 정답 오류로 단정하지 않음. 릴레이션 카디널리티(행 수)와 구별하고 튜플은 관계형 DB 문맥으로 정리.",
+        "ref": "https://chobopark.tistory.com/372"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 19번",
+        "before": "분기 커버리지 답안에 1에서 끝나는 부분 경로가 포함됨.",
+        "after": "부분 경로의 간선 커버를 인정하는지, 진입~종료의 완전한 실행 경로를 요구하는지 명시. 간선 커버 자체만 보고 오답으로 단정하지 않음.",
+        "ref": "https://chobopark.tistory.com/372"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 8번",
+        "before": "바이러스는 네트워크로 전파되지 않는다고 절대적으로 서술.",
+        "after": "감염 파일이 네트워크로 전달될 수 있음. 웜과 구별할 핵심은 독립적인 자기 전파 방식임을 명시.",
+        "ref": "https://chobopark.tistory.com/372"
       }
     ]
   },
@@ -104,6 +229,48 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "정답·조건 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "정답 SQL의 명령어가 INSTER INTO로 적힘.",
+        "after": "INSERT INTO로 수정.",
+        "ref": "https://chobopark.tistory.com/420"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 20번",
+        "before": "스텁과 드라이버의 클라이언트·서버 예시가 서로 바뀜.",
+        "after": "스텁: 클라이언트 테스트에 필요한 가상 서버. 드라이버: 서버 테스트를 구동하는 가상 클라이언트. 하향식/상향식 설명과 정답은 유지.",
+        "ref": "https://chobopark.tistory.com/420"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 11번",
+        "before": "Singleton의 생성자가 반복 호출되며 기존 객체를 반환한다고 설명.",
+        "after": "생성 접근을 제한하고 접근 메서드가 동일 인스턴스를 반환한다고 설명. DBCP는 여러 연결을 관리하는 풀 관리자와 개별 연결 객체를 구별.",
+        "ref": "https://chobopark.tistory.com/420"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 2번",
+        "before": "Java m,a,b,c,d가 선언되어 있지 않음.",
+        "after": "정수 변수 선언을 추가하고 빈칸을 채움.",
+        "ref": "https://chobopark.tistory.com/420"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 18번",
+        "before": "C 코드가 대상 없는 #include로 시작.",
+        "after": "#include <stdio.h>를 정상 표시하도록 수정.",
+        "ref": "https://chobopark.tistory.com/420"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 1번",
+        "before": "일부 C 코드의 헤더/함수 선언 누락, 빈 중괄호 초기화 등 표준 버전 의존 표현.",
+        "after": "GCC 허용을 표준 적합성으로 간주하지 말고 헤더·프로토타입 보완. int b[3]={}는 C17 이전 기준에서는 {0} 권장; C23와 구별.",
+        "ref": "https://chobopark.tistory.com/420"
       }
     ]
   },
@@ -133,6 +300,20 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "정답·조건 오류",
+        "topic": "2026-10-24 검수 반영 · 6번",
+        "before": "ORDER BY A인데 정답이 4, 3, 2, 1로 제시됨.",
+        "after": "정답을 1, 2, 3, 4로 수정. DESC가 없으므로 오름차순이다.",
+        "ref": "https://chobopark.tistory.com/453"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 12번",
+        "before": "NAT의 영문을 Network Address Transformation으로 표기.",
+        "after": "Network Address Translation으로 수정.",
+        "ref": "https://chobopark.tistory.com/453"
       }
     ]
   },
@@ -141,7 +322,22 @@
     "url": "https://chobopark.tistory.com/271",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "extend를 모든 항목을 하나의 요소로 추가한다고 설명.",
+        "after": "extend는 iterable의 항목들을 각각 추가. 리스트 자체를 한 요소로 추가하는 것은 append.",
+        "ref": "https://chobopark.tistory.com/271"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 11번",
+        "before": "Java system.out.println 소문자와 세미콜론 누락.",
+        "after": "System.out.println(\"message\");로 수정.",
+        "ref": "https://chobopark.tistory.com/271"
+      }
+    ]
   },
   {
     "title": "2022년 2회",
@@ -169,6 +365,13 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 16번",
+        "before": "일부 C 코드의 헤더/함수 선언 누락, 빈 중괄호 초기화 등 표준 버전 의존 표현.",
+        "after": "GCC 허용을 표준 적합성으로 간주하지 말고 헤더·프로토타입 보완. int b[3]={}는 C17 이전 기준에서는 {0} 권장; C23와 구별.",
+        "ref": "https://chobopark.tistory.com/423"
       }
     ]
   },
@@ -212,6 +415,20 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 3번",
+        "before": "Observer를 객체에 상속되어 있는 다른 객체들에 상태를 전달한다고 설명.",
+        "after": "관찰 대상으로 등록된 의존 객체들에 변경을 통지. 상속 관계를 요구하지 않음.",
+        "ref": "https://chobopark.tistory.com/424"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 12번",
+        "before": "SELECT DERP FROM STUDENT로 표기.",
+        "after": "DEPT로 수정하면 의도한 튜플 수 200, 3, 1을 얻음.",
+        "ref": "https://chobopark.tistory.com/424"
       }
     ]
   },
@@ -241,6 +458,34 @@
         "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
         "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
         "kind": "용어 설명 보완"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 19번",
+        "before": "외부 결합도를 다른 모듈 반환값을 참조하는 것으로 설명.",
+        "after": "외부에서 정한 데이터 형식·통신 프로토콜·장치 인터페이스 등의 공유로 설명.",
+        "ref": "https://chobopark.tistory.com/191"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 3번",
+        "before": "사용자 요구사항과 시스템 요구사항을 기능적 요구사항으로만 분류.",
+        "after": "사용자/시스템은 기술 대상·상세 수준에 따른 구분. 각각 기능적·비기능적 요구사항을 포함할 수 있음.",
+        "ref": "https://chobopark.tistory.com/191"
+      },
+      {
+        "kind": "출력 표기 오류",
+        "topic": "2026-10-24 검수 반영 · 17번",
+        "before": "정답의 공백이 실제 출력과 일부 다름.",
+        "after": "각각 0+1+2+3+4+5=15, a=10. Python 리스트 표현은 [1, 2, 3]. 출력 공백을 그대로 보여주거나 채점 시 공백 무시를 명시.",
+        "ref": "https://chobopark.tistory.com/191"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 1번",
+        "before": "OSI/TCP-IP 계층 설명에 SSH·ARP 등의 분류 기준이 혼재.",
+        "after": "모델과 분류 기준을 밝히고 SSH는 응용 프로토콜임을 구별. ARP를 무조건 특정 OSI 계층 하나로 외우게 하지 않도록 설명.",
+        "ref": "https://chobopark.tistory.com/191"
       }
     ]
   },
@@ -256,6 +501,48 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "주문번호가 기본키이고 제품번호가 주문번호를 결정한다고 설명.",
+        "after": "그림의 주문번호는 중복된다. 의도한 복합키는 (주문번호, 제품번호). 주문번호 → 고객번호·주소라는 부분 함수 종속을 분리한 것으로 설명.",
+        "ref": "https://chobopark.tistory.com/210"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 10번",
+        "before": "WHERE와 ORDER BY의 컬럼명을 작은따옴표로 감쌈.",
+        "after": "WHERE 이름 LIKE '이%' ORDER BY 이름 DESC처럼 식별자와 문자열을 구별.",
+        "ref": "https://chobopark.tistory.com/210"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "Python for문의 끝이 세미콜론이며 pirnt 오타.",
+        "after": "콜론과 print로 수정.",
+        "ref": "https://chobopark.tistory.com/210"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 17번",
+        "before": "Java system.out.print 소문자.",
+        "after": "System으로 수정. [출력결과] 영역도 실행 코드 밖으로 분리.",
+        "ref": "https://chobopark.tistory.com/210"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 16번",
+        "before": "일부 C 코드의 헤더/함수 선언 누락, 빈 중괄호 초기화 등 표준 버전 의존 표현.",
+        "after": "GCC 허용을 표준 적합성으로 간주하지 말고 헤더·프로토타입 보완. int b[3]={}는 C17 이전 기준에서는 {0} 권장; C23와 구별.",
+        "ref": "https://chobopark.tistory.com/210"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 4번",
+        "before": "정규화 암기 문구만으로 엄밀한 정규형 조건이 충분히 설명되지 않음.",
+        "after": "도부이결다조는 유지하되 후보키·비주요 속성·슈퍼키와 비자명 종속 조건을 보충. BCNF를 열 자체 삭제로 오해하지 않도록 설명.",
+        "ref": "https://chobopark.tistory.com/210"
       }
     ]
   },
@@ -264,7 +551,15 @@
     "url": "https://chobopark.tistory.com/217",
     "author": "Life-Journey",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.ko",
-    "changes": []
+    "changes": [
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 4번",
+        "before": "OSI/TCP-IP 계층 설명에 SSH·ARP 등의 분류 기준이 혼재.",
+        "after": "모델과 분류 기준을 밝히고 SSH는 응용 프로토콜임을 구별. ARP를 무조건 특정 OSI 계층 하나로 외우게 하지 않도록 설명.",
+        "ref": "https://chobopark.tistory.com/217"
+      }
+    ]
   },
   {
     "title": "2020년 1회",
@@ -285,6 +580,27 @@
         "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
         "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
         "kind": "용어 설명 보완"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "CPU 스케줄링 보충설명에 FIFO 페이지 교체를 삽입하고, 기한부를 시간할당량 방식으로 설명.",
+        "after": "FIFO/FCFS는 도착 순 실행, 기한부는 완료 기한 중심. 시간할당량은 RR. 우선순위 방식은 선점형/비선점형 모두 가능. HRN 식은 응답비이며 응답시간 자체가 아님.",
+        "ref": "https://chobopark.tistory.com/196"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 9번",
+        "before": "Teardrop을 단순한 패킷 분할 순서 변경으로 설명.",
+        "after": "조각 오프셋·길이 등을 비정상적으로 구성하여 취약한 재조립 처리를 공격한다고 수정.",
+        "ref": "https://chobopark.tistory.com/196"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 6번",
+        "before": "SELECT DERP FROM STUDENT로 표기.",
+        "after": "DEPT로 수정하면 의도한 튜플 수 200, 3, 1을 얻음.",
+        "ref": "https://chobopark.tistory.com/196"
       }
     ]
   },
@@ -300,6 +616,34 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "ROLLBACK의 복귀 대상으로 SAVEPOINT와 CHECKPOINT를 함께 제시.",
+        "after": "트랜잭션 시작 전 상태 또는 지정한 SAVEPOINT로 되돌림. CHECKPOINT는 장애 복구를 위한 기록·반영 지점으로 구별.",
+        "ref": "https://chobopark.tistory.com/195"
+      },
+      {
+        "kind": "문제·코드 오류",
+        "topic": "2026-10-24 검수 반영 · 5번",
+        "before": "Java 부모 클래스 시작 중괄호 및 클래스명 대소문자 등 불일치.",
+        "after": "시작 중괄호, parent/Parent 이름, System 표기를 일치시킴.",
+        "ref": "https://chobopark.tistory.com/195"
+      },
+      {
+        "kind": "출력 표기 오류",
+        "topic": "2026-10-24 검수 반영 · 19번",
+        "before": "정답의 공백이 실제 출력과 일부 다름.",
+        "after": "각각 0+1+2+3+4+5=15, a=10. Python 리스트 표현은 [1, 2, 3]. 출력 공백을 그대로 보여주거나 채점 시 공백 무시를 명시.",
+        "ref": "https://chobopark.tistory.com/195"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 1번",
+        "before": "RTO를 실제 복구까지 걸린 시간처럼 서술.",
+        "after": "복구 목표 시간이라는 뜻이 드러나도록 문장 보완. RCO/RSO 약어의 영문·한글 설명도 출처 기준으로 통일.",
+        "ref": "https://chobopark.tistory.com/195"
       }
     ]
   },
@@ -329,6 +673,20 @@
         "after": "vehicle name:Spark — 제시된 코드의 대소문자와 공백에 맞게 정정",
         "ref": "",
         "kind": "정답 정정"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 11번",
+        "before": "sz를 문자열이 없다는 표기라고 설명.",
+        "after": "sz는 널 문자로 끝나는 문자열(zero-terminated string)을 뜻함.",
+        "ref": "https://chobopark.tistory.com/194"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 7번",
+        "before": "분기 커버리지 답안에 1에서 끝나는 부분 경로가 포함됨.",
+        "after": "부분 경로의 간선 커버를 인정하는지, 진입~종료의 완전한 실행 경로를 요구하는지 명시. 간선 커버 자체만 보고 오답으로 단정하지 않음.",
+        "ref": "https://chobopark.tistory.com/194"
       }
     ]
   },
@@ -351,6 +709,41 @@
         "after": "원문 복원 코드의 문법 오류·누락을 보완한 학습용 코드입니다. 계산 흐름은 유지했습니다.",
         "ref": "",
         "kind": "기출 코드 정정"
+      },
+      {
+        "kind": "정답·조건 오류",
+        "topic": "2026-10-24 검수 반영 · 16번",
+        "before": "문제는 별칭에 작은따옴표를 요구하지만 정답에는 없음.",
+        "after": "문제 조건에 맞춰 SELECT 학과, COUNT(*) AS '학과별튜플수' FROM 학생 GROUP BY 학과;로 제시. 해당 따옴표 문법을 허용하는 DBMS 전제도 명시.",
+        "ref": "https://chobopark.tistory.com/192"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 8번",
+        "before": "NAT의 영문을 Network Address Transformation으로 표기.",
+        "after": "Network Address Translation으로 수정.",
+        "ref": "https://chobopark.tistory.com/192"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "Rollback 시 Redo와 Undo를 모두 수행한다고 설명.",
+        "after": "장애 회복 과정에서 Redo/Undo가 필요하다고 수정. Rollback 자체는 변경 취소. 체크포인트 이전 시작 트랜잭션도 미완료라면 회복 대상일 수 있음.",
+        "ref": "https://chobopark.tistory.com/192"
+      },
+      {
+        "kind": "출력 표기 오류",
+        "topic": "2026-10-24 검수 반영 · 6번",
+        "before": "코드는 숫자 사이 공백을 출력하지 않는데 정답은 띄어 쓴 행렬 형태.",
+        "after": "정확한 출력은 1471013 / 2581114 / 3691215 (각 행 줄바꿈). 또는 코드에 공백을 넣고 문제를 변경.",
+        "ref": "https://chobopark.tistory.com/192"
+      },
+      {
+        "kind": "출력 표기 오류",
+        "topic": "2026-10-24 검수 반영 · 9번",
+        "before": "정답의 공백이 실제 출력과 일부 다름.",
+        "after": "각각 0+1+2+3+4+5=15, a=10. Python 리스트 표현은 [1, 2, 3]. 출력 공백을 그대로 보여주거나 채점 시 공백 무시를 명시.",
+        "ref": "https://chobopark.tistory.com/192"
       }
     ]
   },
@@ -550,6 +943,13 @@
         "after": "반정규화(Denormalization)는 의도적인 설계 작업, Unnormalized는 정규화되지 않은 상태로 구분. 비정규화의 번역 혼용을 설명하고 기출문제 원문·번호와 정답 토글을 유지함.",
         "ref": "https://www.sinagong.co.kr/community/001001002/book-qnas/201190",
         "kind": "용어 설명 보완"
+      },
+      {
+        "kind": "조건·설명 보완",
+        "topic": "2026-10-24 보완 · 7번",
+        "before": "족보 스케줄링 항목 일부 정의가 비어 있음.",
+        "after": "RR·SRT 설명을 채워 정답만 있는 암기 항목을 보완.",
+        "ref": "https://chobopark.tistory.com/193"
       }
     ]
   },
@@ -861,6 +1261,13 @@
         "after": "capitalize는 문자열 첫 문자만 대문자로 하고 나머지는 소문자로 변환. 폭 지정 공백과 슬라이싱 출력값을 실제 실행 결과로 정정.",
         "ref": "https://docs.python.org/3/library/stdtypes.html",
         "kind": "해설 정정"
+      },
+      {
+        "kind": "출력 표기 오류",
+        "topic": "2026-10-24 검수 반영 · 9번",
+        "before": "정답의 공백이 실제 출력과 일부 다름.",
+        "after": "각각 0+1+2+3+4+5=15, a=10. Python 리스트 표현은 [1, 2, 3]. 출력 공백을 그대로 보여주거나 채점 시 공백 무시를 명시.",
+        "ref": "https://chobopark.tistory.com/273"
       }
     ]
   },
@@ -904,6 +1311,27 @@
         "after": "생성자 본문을 감싸는 중괄호를 복원했다.",
         "kind": "코드 정정",
         "ref": ""
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 3번",
+        "before": "b--를 후치 증가라고 하고 라인이 끝난 뒤 반영된다고 설명.",
+        "after": "후치 감소. 식의 값은 감소 전 값이지만 평가 과정에서 변수는 감소. 이 예에서는 b=14가 됨.",
+        "ref": "https://chobopark.tistory.com/274"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 6번",
+        "before": "paint를 print로 적고, 메서드 호출 때마다 형 변환이 일어난다고 설명.",
+        "after": "a.paint()는 SubObject.paint(), super.draw()는 SuperObject.draw(), 내부 draw()는 동적 디스패치로 SubObject.draw() 호출.",
+        "ref": "https://chobopark.tistory.com/274"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 9번",
+        "before": "부모 타입이므로 부모 getName()이 호출된다고 설명하고 대입 대상 일부를 누락.",
+        "after": "인수가 없어 getName() 시그니처를 선택하며 Car가 이를 재정의하지 않아 상속된 구현 실행. name=super.name=val은 양쪽 필드 모두 설정.",
+        "ref": "https://chobopark.tistory.com/274"
       }
     ]
   },
@@ -989,6 +1417,34 @@
         "after": "누락된 %x와 세미콜론을 복원하고 %o·%x에 맞게 unsigned int를 사용했다.",
         "kind": "코드 정정",
         "ref": ""
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 3번",
+        "before": "C++ 문자열 출력 예시에 작은따옴표를 사용.",
+        "after": "std::cout << \"문자열\"처럼 큰따옴표 사용.",
+        "ref": "https://chobopark.tistory.com/425"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 4번",
+        "before": "정렬 함수 이름을 align으로 설명.",
+        "after": "원문 코드의 ary로 수정.",
+        "ref": "https://chobopark.tistory.com/425"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 7번",
+        "before": "반복문을 돌면서 배열의 초기값과 나머지 0이 설정된다고 설명.",
+        "after": "int a[5]={3,1}; 선언 시 나머지 요소도 0으로 초기화. 반복문은 출력만 수행.",
+        "ref": "https://chobopark.tistory.com/425"
+      },
+      {
+        "kind": "해설·개념 오류",
+        "topic": "2026-10-24 검수 반영 · 10번",
+        "before": "%.3e의 소수점 자릿수를 지수의 자릿수로 설명.",
+        "after": "가수 부분의 소수점 이하를 3자리로 출력. e-02는 지수 부분.",
+        "ref": "https://chobopark.tistory.com/425"
       }
     ]
   }

@@ -1,0 +1,1393 @@
+{
+  "date": "2026-10-24",
+  "data_version": "2026-10-24.1-audit-fixes",
+  "scope": {
+    "blocks": 625,
+    "code_cases": 172,
+    "output_verified": 170,
+    "expected_errors": 2
+  },
+  "method": "빈칸은 제시 답으로 채우고 지정 입력 적용. 함수 단독 문제는 검수용 main으로 호출. 원문 코드 오타를 추가 교정하지 않은 수정본 실행. 집합의 순서는 비교에서 제외.",
+  "results": [
+    {
+      "id": "u-561-1",
+      "lang": "c",
+      "status": "ok",
+      "output": "106.00",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-7",
+      "lang": "java",
+      "status": "ok",
+      "output": "2\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-8",
+      "lang": "python",
+      "status": "ok",
+      "output": "veDamuH\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "20",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-13",
+      "lang": "python",
+      "status": "ok",
+      "output": "9A7A5A3A1A\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-14",
+      "lang": "python",
+      "status": "ok",
+      "output": "10\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-561-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "1123\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-2",
+      "lang": "java",
+      "status": "ok",
+      "output": "10a20b",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-5",
+      "lang": "python",
+      "status": "ok",
+      "output": "CNNLRPYT",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-6",
+      "lang": "python",
+      "status": "ok",
+      "output": "_THIISING\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-7",
+      "lang": "c",
+      "status": "ok",
+      "output": "12\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-9",
+      "lang": "c",
+      "status": "ok",
+      "output": "1. 50\n2. 50\n3. 2\n4. 8\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-15",
+      "lang": "java",
+      "status": "ok",
+      "output": "509",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-562-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "1",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-5",
+      "lang": "java",
+      "status": "ok",
+      "output": "출력1출력5",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-10",
+      "lang": "c",
+      "status": "ok",
+      "output": "4\nBACDE",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-11",
+      "lang": "c",
+      "status": "ok",
+      "output": "13",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-13",
+      "lang": "java",
+      "status": "ok",
+      "output": "54\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "1",
+      "error": "",
+      "notes": [
+        "함수 단독: 해설의 입력으로 main 추가"
+      ]
+    },
+    {
+      "id": "u-540-16",
+      "lang": "java",
+      "status": "ok",
+      "output": "20\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-17",
+      "lang": "python",
+      "status": "ok",
+      "output": "13\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "35421",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-19",
+      "lang": "c",
+      "status": "ok",
+      "output": "908",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-540-20",
+      "lang": "java",
+      "status": "ok",
+      "output": "4\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-5",
+      "lang": "java",
+      "status": "ok",
+      "output": "BB",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-9",
+      "lang": "java",
+      "status": "ok",
+      "output": "19",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-10",
+      "lang": "java",
+      "status": "ok",
+      "output": "5P\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "2 그리고 3",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-14",
+      "lang": "c",
+      "status": "ok",
+      "output": "5 그리고 6",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-15",
+      "lang": "java",
+      "status": "ok",
+      "output": "1a3b3\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-16",
+      "lang": "c",
+      "status": "ok",
+      "output": "3 1 2",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-17",
+      "lang": "python",
+      "status": "ok",
+      "output": "2\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-554-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "TSEB",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-5",
+      "lang": "c",
+      "status": "ok",
+      "output": "C",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-6",
+      "lang": "c",
+      "status": "ok",
+      "output": "E",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-7",
+      "lang": "c",
+      "status": "ok",
+      "output": "187\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-8",
+      "lang": "java",
+      "status": "ok",
+      "output": "Washing machine running\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-9",
+      "lang": "python",
+      "status": "ok",
+      "output": "{0: (15, 5), 1: (10, 3), 2: (18, 5), 3: (9, 2)}\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-12",
+      "lang": "java",
+      "status": "ok",
+      "output": "100\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "0",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-558-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "AB",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "4",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-2",
+      "lang": "c",
+      "status": "ok",
+      "output": "151",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-4",
+      "lang": "c",
+      "status": "ok",
+      "output": "GECA\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-10",
+      "lang": "java",
+      "status": "ok",
+      "output": "12\n",
+      "error": "",
+      "notes": [
+        "줄 번호 제거"
+      ]
+    },
+    {
+      "id": "u-476-11",
+      "lang": "c",
+      "status": "ok",
+      "output": "9981 and 2795.10",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-12",
+      "lang": "python",
+      "status": "ok",
+      "output": "Seynaau\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-16",
+      "lang": "java",
+      "status": "ok",
+      "output": "9\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-476-19",
+      "lang": "c",
+      "status": "ok",
+      "output": "Nd sc 1\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "NNN",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-6",
+      "lang": "python",
+      "status": "ok",
+      "output": "ab3ca3\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-13",
+      "lang": "c",
+      "status": "ok",
+      "output": "21",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-14",
+      "lang": "java",
+      "status": "ok",
+      "output": "25, 20",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "10",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "dcba",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "-13",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-19",
+      "lang": "c",
+      "status": "ok",
+      "output": "20\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-483-20",
+      "lang": "java",
+      "status": "ok",
+      "output": "S",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "OOAAA",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-2",
+      "lang": "python",
+      "status": "ok",
+      "output": "3\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-7",
+      "lang": "c",
+      "status": "ok",
+      "output": "20",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-10",
+      "lang": "python",
+      "status": "ok",
+      "output": "45\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-11",
+      "lang": "java",
+      "status": "ok",
+      "output": "52",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "312",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-16",
+      "lang": "c",
+      "status": "ok",
+      "output": "1",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-18",
+      "lang": "java",
+      "status": "ok",
+      "output": "101",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-495-19",
+      "lang": "java",
+      "status": "ok",
+      "output": "B0",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "10\n11\n10\n20",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-2",
+      "lang": "c",
+      "status": "ok",
+      "output": "Art\nA\nA\nArt\nArt",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-3",
+      "lang": "c",
+      "status": "ok",
+      "output": "qwe",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-9",
+      "lang": "c",
+      "status": "ok",
+      "output": "46",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-14",
+      "lang": "java",
+      "status": "ok",
+      "output": "1 2 3 5 7 8 ",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-15",
+      "lang": "python",
+      "status": "ok",
+      "output": "{'중국', '한국', '홍콩', '태국', '베트남'}\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "Vehicle name: Spark\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-372-20",
+      "lang": "java",
+      "status": "ok",
+      "output": "500\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-1",
+      "lang": "c",
+      "status": "ok",
+      "output": "숫자를 입력해주세요 : 숫자를 입력해주세요 : 숫자를 입력해주세요 : 숫자를 입력해주세요 : 숫자를 입력해주세요 : 43215",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-2",
+      "lang": "java",
+      "status": "ok",
+      "output": "4\n1\n1\n2\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-3",
+      "lang": "c",
+      "status": "ok",
+      "output": "입력하세요 : 입력하세요 : 입력하세요 : 박영희\n박영희\n박영희",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-5",
+      "lang": "c",
+      "status": "ok",
+      "output": "BCD",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-7",
+      "lang": "c",
+      "status": "ok",
+      "output": "505",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-9",
+      "lang": "c",
+      "status": "ok",
+      "output": "213465",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-14",
+      "lang": "java",
+      "status": "ok",
+      "output": "true\nfalse\ntrue\ntrue",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "11 12 22 25 64 ",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-420-19",
+      "lang": "python",
+      "status": "ok",
+      "output": "engneing\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "BDCDD",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-4",
+      "lang": "c",
+      "status": "ok",
+      "output": "34 ",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-5",
+      "lang": "c",
+      "status": "ok",
+      "output": "10\n10\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-8",
+      "lang": "c",
+      "status": "ok",
+      "output": "5040",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-10",
+      "lang": "c",
+      "status": "ok",
+      "output": "KOREA\nOREA\nK\nE\nO\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-11",
+      "lang": "java",
+      "status": "ok",
+      "output": "2",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-453-13",
+      "lang": "java",
+      "status": "compile_error",
+      "output": "",
+      "error": "fixed-runs/u-453-13/main.java:7: error: non-static variable name cannot be referenced from a static context\n    return name;\n           ^\n1 error\n",
+      "notes": []
+    },
+    {
+      "id": "u-453-14",
+      "lang": "python",
+      "status": "runtime_error",
+      "output": "파이썬 입출력에 대한 문제입니다.\n2 3\n",
+      "error": "Traceback (most recent call last):\n  File \"/workspace/scratch/e09a191ed1df/fixed-runs/u-453-14/main.py\", line 9, in <module>\n    print(num1 + \" + \"  + num2 + \" = \" + num3)\n          ~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'str'\n",
+      "notes": []
+    },
+    {
+      "id": "u-271-3",
+      "lang": "java",
+      "status": "ok",
+      "output": "2000",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-271-6",
+      "lang": "python",
+      "status": "ok",
+      "output": "a= 20 b= 2\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-271-11",
+      "lang": "java",
+      "status": "ok",
+      "output": "message\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-271-14",
+      "lang": "c",
+      "status": "ok",
+      "output": "120",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-271-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "4321",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-271-19",
+      "lang": "c",
+      "status": "ok",
+      "output": "29",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-7",
+      "lang": "java",
+      "status": "ok",
+      "output": "-8",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-8",
+      "lang": "c",
+      "status": "ok",
+      "output": "2",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-13",
+      "lang": "python",
+      "status": "ok",
+      "output": "REMEMBER AND STR\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "10",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-16",
+      "lang": "c",
+      "status": "ok",
+      "output": "22",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-423-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "61",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-1",
+      "lang": "c",
+      "status": "ok",
+      "output": "1132\n3453\n3564\n3553\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-4",
+      "lang": "c",
+      "status": "ok",
+      "output": "24513",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-9",
+      "lang": "python",
+      "status": "ok",
+      "output": "[101, 102, 103, 104, 105]\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-13",
+      "lang": "c",
+      "status": "ok",
+      "output": "2",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-19",
+      "lang": "java",
+      "status": "ok",
+      "output": "0123",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-424-20",
+      "lang": "java",
+      "status": "ok",
+      "output": "993",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-191-5",
+      "lang": "python",
+      "status": "ok",
+      "output": "skiddp\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-191-7",
+      "lang": "java",
+      "status": "ok",
+      "output": "3\n1\n45\n50\n89\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-191-15",
+      "lang": "c",
+      "status": "ok",
+      "output": "Lee\n38\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-191-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "0+1+2+3+4+5=15",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-210-7",
+      "lang": "python",
+      "status": "ok",
+      "output": "26\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-210-16",
+      "lang": "c",
+      "status": "ok",
+      "output": "1024",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-210-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "positive",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-210-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "8",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-210-19",
+      "lang": "java",
+      "status": "ok",
+      "output": "11\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-217-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "3",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-217-11",
+      "lang": "java",
+      "status": "ok",
+      "output": "7\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-217-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "37\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-217-14",
+      "lang": "python",
+      "status": "ok",
+      "output": "False\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-217-17",
+      "lang": "c",
+      "status": "ok",
+      "output": "501\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-196-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "50758595100",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-196-13",
+      "lang": "java",
+      "status": "ok",
+      "output": "0 1 2 3 ",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-196-14",
+      "lang": "java",
+      "status": "ok",
+      "output": "-8",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-195-2",
+      "lang": "python",
+      "status": "ok",
+      "output": "{'태국', '중국', '홍콩', '베트남', '한국'}\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-195-5",
+      "lang": "java",
+      "status": "ok",
+      "output": "Child\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-195-19",
+      "lang": "java",
+      "status": "ok",
+      "output": "a=10\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-194-2",
+      "lang": "c",
+      "status": "ok",
+      "output": "0",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-194-13",
+      "lang": "c",
+      "status": "ok",
+      "output": "234\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-194-15",
+      "lang": "java",
+      "status": "ok",
+      "output": "vehicle name:Spark",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-194-17",
+      "lang": "java",
+      "status": "ok",
+      "output": "30\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-192-5",
+      "lang": "java",
+      "status": "ok",
+      "output": "00001010",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-192-6",
+      "lang": "java",
+      "status": "ok",
+      "output": "1471013\n2581114\n3691215\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-192-9",
+      "lang": "python",
+      "status": "ok",
+      "output": "[1, 2, 3]\n7\n123\n45\n6789\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-192-18",
+      "lang": "c",
+      "status": "ok",
+      "output": "KOREA\nEA\nK\nE\nM\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-192-19",
+      "lang": "java",
+      "status": "ok",
+      "output": "1",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-1",
+      "lang": "python",
+      "status": "ok",
+      "output": "Pto*gra\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-2",
+      "lang": "python",
+      "status": "ok",
+      "output": "input String :input number : 5\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-3",
+      "lang": "python",
+      "status": "ok",
+      "output": "20\n20/123.457\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-4",
+      "lang": "python",
+      "status": "ok",
+      "output": "SIKDDP\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-5",
+      "lang": "python",
+      "status": "ok",
+      "output": "What      \n      What\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-6",
+      "lang": "python",
+      "status": "ok",
+      "output": "i=7, hap=9\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-7",
+      "lang": "python",
+      "status": "ok",
+      "output": "9 5\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-8",
+      "lang": "python",
+      "status": "ok",
+      "output": "30 200\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-9",
+      "lang": "python",
+      "status": "ok",
+      "output": "[1, 2, 3]\n7\n1 2 3 \n4 5 \n6 7 8 9 \n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-273-10",
+      "lang": "python",
+      "status": "ok",
+      "output": "REMEMBER AND STR\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-1",
+      "lang": "java",
+      "status": "ok",
+      "output": "[7]\n[5, 7]\n[5, 7]\n[7]\n1\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-2",
+      "lang": "java",
+      "status": "ok",
+      "output": "5",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-3",
+      "lang": "java",
+      "status": "ok",
+      "output": "17",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-4",
+      "lang": "java",
+      "status": "ok",
+      "output": "14",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-5",
+      "lang": "java",
+      "status": "ok",
+      "output": "5, 15\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-6",
+      "lang": "java",
+      "status": "ok",
+      "output": "Sub Object\nSuper Object\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-7",
+      "lang": "java",
+      "status": "ok",
+      "output": "97\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-8",
+      "lang": "java",
+      "status": "ok",
+      "output": "a=10\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-9",
+      "lang": "java",
+      "status": "ok",
+      "output": "Vehicle name : Spark",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-10",
+      "lang": "java",
+      "status": "ok",
+      "output": "1",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-274-11",
+      "lang": "java",
+      "status": "ok",
+      "output": "child\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-2",
+      "lang": "c",
+      "status": "ok",
+      "output": "7.900000\n7.900\n  7.90\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-3",
+      "lang": "cpp",
+      "status": "ok",
+      "output": "A\n7",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-4",
+      "lang": "c",
+      "status": "ok",
+      "output": "50758595100",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-5",
+      "lang": "cpp",
+      "status": "ok",
+      "output": "8",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-6",
+      "lang": "c",
+      "status": "ok",
+      "output": "501",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-7",
+      "lang": "c",
+      "status": "ok",
+      "output": "3\n1\n0\n0\n0\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-8",
+      "lang": "c",
+      "status": "ok",
+      "output": "Lee\n38\n",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-9",
+      "lang": "c",
+      "status": "ok",
+      "output": "Hell He",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-10",
+      "lang": "c",
+      "status": "ok",
+      "output": "[a]=3.46 / [b]=5.612e-02",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-11",
+      "lang": "c",
+      "status": "ok",
+      "output": "13 34",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-12",
+      "lang": "c",
+      "status": "ok",
+      "output": "8",
+      "error": "",
+      "notes": []
+    },
+    {
+      "id": "u-425-13",
+      "lang": "c",
+      "status": "ok",
+      "output": "1, 4, 0\n",
+      "error": "",
+      "notes": []
+    }
+  ]
+}
