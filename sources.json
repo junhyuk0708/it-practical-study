@@ -1721,5 +1721,35 @@
         "ref": "https://chobopark.tistory.com/425"
       }
     ]
+  },
+  {
+    "title": "핵심 범위 모의고사 1회",
+    "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+    "author": "실기 서재 자체 제작",
+    "license": null,
+    "attribution": "참고 영상·문서의 학습 범위를 바탕으로 새로 작성한 문제. 원 제작자의 문항 전사·제휴·공식 예상문제 아님.",
+    "references": [
+      {
+        "title": "영상 설명·학습 목표",
+        "url": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      },
+      {
+        "title": "이론 범위 참고",
+        "url": "https://jeongcheogi.edugamja.com/theory/theory-expected-questions"
+      },
+      {
+        "title": "코딩 구성 참고",
+        "url": "https://jeongcheogi.edugamja.com/coding/coding-expected-questions-python"
+      }
+    ],
+    "changes": [
+      {
+        "kind": "자체 제작 모의고사",
+        "topic": "코딩 6 + 이론 6 · 12문항",
+        "before": "영상 설명의 6+6은 목표 정답 수이며, 특정 12문항의 원문 목록이 아님.",
+        "after": "영상 설명과 연결된 공개 공부 범위만 참고해 새 문제·코드·표·해설을 작성. 코딩 6문항 실행 및 이론 계산·정의 검수.",
+        "ref": "https://www.youtube.com/watch?v=GwFUPOH4K2s"
+      }
+    ]
   }
 ]

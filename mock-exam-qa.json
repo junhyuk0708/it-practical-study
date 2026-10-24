@@ -1,0 +1,104 @@
+{
+  "scope": "12 original mock questions; 6 coding + 6 theory",
+  "video": "https://www.youtube.com/watch?v=GwFUPOH4K2s",
+  "source_access": "video page description and linked public scope documents; auto-caption endpoint returned no text; no full-video transcript claimed",
+  "not_original_exam_or_video_transcription": true,
+  "results": [
+    {
+      "question": 1,
+      "method": "c execution",
+      "result": "30 7",
+      "passed": true
+    },
+    {
+      "question": 2,
+      "method": "java execution",
+      "result": "PC 4 13",
+      "passed": true
+    },
+    {
+      "question": 3,
+      "method": "python execution",
+      "result": "AAAES\n",
+      "passed": true
+    },
+    {
+      "question": 4,
+      "method": "python execution",
+      "result": "20 3\n",
+      "passed": true
+    },
+    {
+      "question": 5,
+      "method": "sql execution",
+      "result": [
+        [
+          "나",
+          2
+        ],
+        [
+          "가",
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "question": 6,
+      "method": "sql execution",
+      "result": [
+        [
+          2
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "question": 7,
+      "method": "FD closure + atomic-value assumption review",
+      "result": [
+        "1NF",
+        "partial dependency"
+      ],
+      "passed": true
+    },
+    {
+      "question": 8,
+      "method": "ipaddress",
+      "result": [
+        "192.168.10.64",
+        "192.168.10.95",
+        30
+      ],
+      "passed": true
+    },
+    {
+      "question": 9,
+      "method": "enumerate defined four conditional branches",
+      "result": {
+        "initial_percent": 75,
+        "additional_example": 0
+      },
+      "passed": true
+    },
+    {
+      "question": 10,
+      "method": "manual definition and distractor comparison",
+      "result": "Adapter",
+      "passed": true
+    },
+    {
+      "question": 11,
+      "method": "manual interface-data analysis",
+      "result": "Stamp coupling",
+      "passed": true
+    },
+    {
+      "question": 12,
+      "method": "NIST watering-hole definition comparison",
+      "source": "https://csrc.nist.gov/glossary/term/watering_hole_attack",
+      "result": "Watering Hole Attack",
+      "passed": true
+    }
+  ]
+}
