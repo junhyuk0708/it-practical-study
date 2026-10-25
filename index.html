@@ -5,8 +5,41 @@
 <title>실기 서재 | 정보처리기사</title><meta name="description" content="2020~2026 정보처리기사 실기 복원 문제, 수정한 개념 정리, 프로그래밍 학습 자료.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=2026-10-24.8">
 <script defer src="data.js?v=2026-10-24.7"></script><script defer src="app.js?v=2026-10-24.8"></script>
+<style>
+/* This is a friendly entrance screen, not server-side access control. */
+#study-app[hidden], #entrance[hidden] { display:none!important; }
+#entrance { min-height:100vh; min-height:100svh; display:grid; place-items:center; padding:24px; }
+.entrance-card { width:100%; max-width:420px; padding:40px 28px 30px; background:var(--paper); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow); text-align:center; }
+.entrance-mark { display:grid; place-items:center; width:52px; height:56px; margin:0 auto 24px; border-radius:13px; background:#174c46; color:#f4e8c8; font-size:29px; font-weight:800; }
+.entrance-card .eyebrow { margin:0 0 14px; letter-spacing:1.5px; }
+.entrance-card h1 { margin:0 0 12px; font-size:clamp(24px,6vw,30px); letter-spacing:-1px; line-height:1.4; }
+.entrance-hint { color:var(--muted); font-size:14px; line-height:1.7; margin:0 0 28px; }
+.entrance-answer { display:flex; align-items:center; justify-content:center; gap:12px; margin-bottom:20px; font-size:22px; font-weight:700; }
+#cohort { width:110px; height:62px; padding:10px; border:1px solid var(--line); border-radius:12px; background:var(--bg); color:var(--ink); text-align:center; font-size:28px; font-weight:700; }
+#cohort[aria-invalid="true"] { border-color:#b33a32; }
+.entrance-submit { width:100%; min-height:48px; border-color:#174c46; background:#174c46; color:#fff; font-weight:700; }
+.entrance-submit:hover { background:#21685b; color:#fff; }
+#entrance-error { min-height:1.7em; margin:14px 0 0; font-size:13px; line-height:1.7; color:#b33a32; }
+</style>
 </head>
 <body>
+<section id="entrance" aria-labelledby="entrance-title">
+  <div class="entrance-card">
+    <span class="entrance-mark" aria-hidden="true">실</span>
+    <p class="eyebrow">SSAFY · 실기 서재</p>
+    <h1 id="entrance-title">우리는 SSAFY 몇 기?</h1>
+    <p class="entrance-hint">우리의 기수를 입력하고 들어오세요.</p>
+    <form id="entrance-form" novalidate>
+      <div class="entrance-answer">
+        <input id="cohort" type="text" inputmode="numeric" maxlength="2" placeholder="??" aria-label="SSAFY 기수" aria-describedby="entrance-error" autocomplete="off" spellcheck="false" required>
+        <span>기</span>
+      </div>
+      <button class="entrance-submit" type="submit">입장하기</button>
+      <p id="entrance-error" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<div id="study-app" hidden inert>
 <a class="skip" href="#main">본문으로 건너뛰기</a>
 <aside id="sidebar"><a class="brand" href="#home"><span class="brand-mark">실</span><span>실기 서재<small>정보처리기사 · PRACTICAL</small></span></a>
 <label class="search-label" for="global-search">자료 검색</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="회차, 용어, 코드 검색" autocomplete="off"></div>
@@ -15,5 +48,42 @@
 </aside>
 <div class="workspace"><header class="topbar"><button id="menu" aria-label="목차 열기" aria-expanded="false">☰</button><span id="breadcrumb">학습 대시보드</span><div class="top-actions"><button id="theme" aria-label="밝은 화면과 어두운 화면 전환">◐ 화면</button><a href="#changes">수정 내역</a></div></header><main id="main" tabindex="-1"></main><footer>기출·정리 원문: <a href="https://chobopark.tistory.com/193" target="_blank" rel="noopener">Life-Journey</a> · <a href="https://creativecommons.org/licenses/by/4.0/deed.ko" target="_blank" rel="noopener">CC BY 4.0</a><span>기출 오류 정정 · 모의고사는 자체 제작 문제입니다. 2026.10.24</span></footer></div>
 <div id="toast" role="status" aria-live="polite"></div>
+</div>
+<script>
+(() => {
+  'use strict';
+  const key = 'it-practical-entrance-v1';
+  const entrance = document.getElementById('entrance');
+  const app = document.getElementById('study-app');
+  const input = document.getElementById('cohort');
+  const error = document.getElementById('entrance-error');
+  function enter() {
+    entrance.hidden = true;
+    app.hidden = false;
+    app.removeAttribute('inert');
+    document.getElementById('main').focus({preventScroll:true});
+  }
+  document.getElementById('entrance-form').addEventListener('submit', event => {
+    event.preventDefault();
+    if (input.value.trim() !== '16') {
+      input.setAttribute('aria-invalid', 'true');
+      error.textContent = '기수를 다시 확인해 주세요.';
+      input.focus();
+      input.select();
+      return;
+    }
+    try { sessionStorage.setItem(key, 'passed'); } catch {}
+    enter();
+  });
+  input.addEventListener('input', () => {
+    input.removeAttribute('aria-invalid');
+    error.textContent = '';
+  });
+  let passed = false;
+  try { passed = sessionStorage.getItem(key) === 'passed'; } catch {}
+  if (passed) enter();
+  else input.focus({preventScroll:true});
+})();
+</script>
 <noscript>이 학습 사이트는 JavaScript를 켜야 사용할 수 있습니다.</noscript>
 </body></html>
